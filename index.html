@@ -6,6 +6,9 @@
   <script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
   <link rel="stylesheet" href="./css/style.css">
   <title>Level Амурская</title>
 </head>
@@ -24,7 +27,56 @@
         <button class="container-one__call-back"><img src="./img/svg/white-phone.svg" alt="phone" class="container-one__call-back_white-phone">Заказать звонок</button>
       </header>
       <div class="container-one__intro">
+        <div class="courusel">
+          <div class="vertical-slider owl-carousel owl-theme">
+            <div class="prev">
+              <div class="horisontal-slider owl-carousel owl-theme">
+                <div class="img1"></div>
+                <div class="img2"></div>
+                <div class="img3"></div>
+                <div class="img4"></div>
+              </div>
+            </div>
+            <div class="prev">
+              <div class="horisontal-slider owl-carousel owl-theme">
+                <div class="img2"></div>
+                <div class="img3"></div>
+                <div class="img4"></div>
+                <div class="img1"></div>
+              </div>
+            </div>
+            <div class="prev">
+              <div class="horisontal-slider owl-carousel owl-theme">
+                <div class="img3"></div>
+                <div class="img4"></div>
+                <div class="img1"></div>
+                <div class="img2"></div>
+              </div>
+            </div>
+            <div class="prev">
+              <div class="horisontal-slider owl-carousel owl-theme">
+                <div class="img4"></div>
+                <div class="img1"></div>
+                <div class="img2"></div>
+                <div class="img3"></div>
+              </div>
+            </div>
+          </div>
 
+          <div class="dots-vertical-container">
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+          </div>
+          <div class="nav-vertical-container">
+          </div>
+          <div class="preview">
+            <h1>КОМФОРТНАЯ СРЕДА ДЛЯ ЖИЗНИ</h1>
+            <p>Cэкономьте с нами 80% своего времени  на  поиск и подбор своей квартиры</p>
+            <button>Подобрать квартиру</button>
+          </div>
+        </div>
       </div>
     </section>
     <!-- container one -->
@@ -67,7 +119,31 @@
         </div>
       </div>
     </section>
+
     <!-- CONTAINER_TWO -->
+
+    <section class="container-three ">
+      <h2 class="container-three__header">ГАЛЕРЕЯ КОМПЛЕКСА</h2>
+      <div class="container-three__slider swiper-container center">
+        <div class="swiper-wrapper">
+          <div class="img swiper-slide"><img src="./img/png/cont3-build1.png" alt="build"></div>
+          <div class="img swiper-slide"><img src="./img/png/cont3-build2.png" alt="build"></div>
+          <div class="img swiper-slide"><img src="./img/png/cont3-build3.png" alt="build"></div>
+          <div class="img swiper-slide"><img src="./img/png/cont3-build2.png" alt="build"></div>
+          <div class="img swiper-slide"><img src="./img/png/cont3-build1.png" alt="build"></div>
+          <div class="img swiper-slide"><img src="./img/png/cont3-build3.png" alt="build"></div>
+          <div class="img swiper-slide"><img src="./img/png/cont3-build2.png" alt="build"></div>
+          <div class="img swiper-slide"><img src="./img/png/cont3-build3.png" alt="build"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-scrollbar" style="opacity: 1;"></div>
+      </div>
+      <button>Узнать больше</button>
+    </section>
+
+    <!-- CONTAINER-three -->
+
     <section class="container-four center">
       <h2 class="container-four__header">КАКОЙ ВЫ ВИДИТЕ КВАРТИРУ СВОЕЙ МЕЧТЫ?</h2>
       <div class="container-four__cards">
@@ -84,7 +160,7 @@
           <p class="container-four__text"><span class="container-four__red">В просторных светлых</span>  квартирах  ЖК Амурская легко дышится и можно поставить любую мебель.</p>
         </div>
         <div class="container-four__card">
-          <img src="/img/png/cont4-img4.png" alt="build" class="container-four__img">
+          <img src="./img/png/cont4-img4.png" alt="build" class="container-four__img">
           <p class="container-four__text">В комплексе у вас появляется больше <span class="container-four__red">свободного времени</span> для ваших увлечений отдыха и общения с близкими</p>
         </div>
       </div>
@@ -94,66 +170,85 @@
     <section class="container-five">
       <h2 class="container-five__header">ПОДОБРАТЬ ПО ПАРАМЕТРАМ</h2>
       <div class="cintainer-five__calculaitor center">
-        <div class="container-five__block-one" id="apart">
-          <form class="container-five__rooms" form="apart">
-            <p class="container-five__heading-text">Количество комнат</p>
-            <input class="container-five__rooms_radio" id="radio-one" name="radio" type="radio" >
-            <label for="radio-one">1</label>
-            <input class="container-five__rooms_radio" id="radio-two" name="radio" type="radio" checked>
-            <label for="radio-two">2</label>
-            <input class="container-five__rooms_radio" id="radio-three" name="radio" type="radio" >
-            <label for="radio-three">2e</label>
-            <input class="container-five__rooms_radio" id="radio-four" name="radio" type="radio">
-            <label for="radio-four">3</label>
-            <input class="container-five__rooms_radio" id="radio-five" name="radio" type="radio">
-            <label for="radio-five">3e</label>
+        <div class="container-five__block-one">
+          <form class="container-five__form" id="apart">
+            <div class="container-five__rooms" form="apart">
+              <p class="container-five__heading-text">Количество комнат</p>
+              <input class="container-five__rooms_radio" id="radio-one" name="radio" type="radio" >
+              <label for="radio-one">1</label>
+              <input class="container-five__rooms_radio" id="radio-two" name="radio" type="radio" checked>
+              <label for="radio-two">2</label>
+              <input class="container-five__rooms_radio" id="radio-three" name="radio" type="radio" >
+              <label for="radio-three">2e</label>
+              <input class="container-five__rooms_radio" id="radio-four" name="radio" type="radio">
+              <label for="radio-four">3</label>
+              <input class="container-five__rooms_radio" id="radio-five" name="radio" type="radio">
+              <label for="radio-five">3e</label>
+            </div>
+            <div class="container-five__fix" form="apart">
+              <div class="container-five__with-fix">
+                <p class="container-five__fix-text">C отделкой</p>
+                <input class="container-five__rooms_radio" id="radio-fix" name="radio" type="radio" checked>
+              <label for="radio-fix"></label>
+              </div>
+              <div class="container-five__without-fix">
+                <p class="container-five__fix-text">Без отделкой</p>
+                <input class="container-five__rooms_radio" id="radio-witoutfix" name="radio" type="radio">
+              <label for="radio-witoutfix"></label>
+              </div>
+            </div>
+            <div class="container-five__other" form="apart">
+              <p class="container-five__fix-text">Дополнительные параметры</p>
+              <button><img src="./img/svg/cont5-arrow.svg" alt="arrow"></button>
+            </div>
+            <div class="container-five__deadline" form="apart">
+              <p class="cotainer-five__deadline-text">Срок сдачи</p>
+              <div class="container-five__deadline-form">
+                <div class="container-five__date">
+                  <p class="conyainer-five__date-text">IV кв 2020</p>
+                  <input class="container-five__rooms_radio" id="radio-before" name="radio" type="radio" checked>
+                <label for="radio-before"></label>
+                </div>
+                <div class="container-five__date">
+                  <p class="conyainer-five__date-text">I кв 2021</p>
+                  <input class="container-five__rooms_radio" id="radio-after" name="radio" type="radio">
+                <label for="radio-after"></label>
+                </div>
+              </div>
+            </div>
+            <div class="container-five__reset">
+              <p class="container-five__reset-text">Cбросить фильтр</p>
+              <button><img src="./img/svg/cont3-reset.svg" alt="reset"></button>
+            </div>
           </form>
-          <form class="container-five__fix" form="apart">
-            <div class="container-five__with-fix">
-              <p class="conyainer-five__fix-text">C отделкой</p>
-              <input class="container-five__rooms_radio" id="radio-fix" name="radio" type="radio">
-            <label for="radio-fix"></label>
-            </div>
-            <div class="container-five__without-fix">
-              <p class="conyainer-five__fix-text">Без отделкой</p>
-              <input class="container-five__rooms_radio" id="radio-witoutfix" name="radio" type="radio">
-            <label for="radio-witoutfix"></label>
-            </div>
-          </form>
-          <div class="container-five__other" form="apart">
-            <p></p>
-            <button><img src="" alt=""></button>
-          </div>
-          <form class="container-five__deadline" form="apart">
-            <p class="cotainer-five__deadline-text">Срок сдачи</p>
-            <div class="container-five__date">
-              <p class="conyainer-five__date-text">IV кв 2020</p>
-              <input class="container-five__rooms_radio" id="radio-before" name="radio" type="radio">
-            <label for="radio-before"></label>
-            </div>
-            <div class="container-five__date">
-              <p class="conyainer-five__date-text">I кв 2021</p>
-              <input class="container-five__rooms_radio" id="radio-after" name="radio" type="radio">
-            <label for="radio-after"></label>
-            </div>
-          </form>
-          <div class="container-five__reset">
-            <p class="container-five__reset-text">Cбросить фильтр</p>
-            <input type="reset" form="apart">
-          </div>
         </div>
         <div class="container-five__block-two">
           <div class="container-five__area">
-            <p class="container-five__area-head"></p>
-            <input type="range" class="container-five__area-input" min="36" max="110">
+            <p class="container-five__area-pharaph">Полощадь</p>
+            <input type="range" min="36" max="110" class="container-five__area-range" id="container-five__area-range">
+            <div class="sub">
+              <p class="start">36 м<sup>2</sup></p>
+              <p class="value"><span id="area"></span> м<sup>2</sup></p>
+              <p class="end">110 м<sup>2</sup></p>
+            </div>
           </div>
           <div class="container-five__level">
-            <p class="container-five__level-head"></p>
-            <input type="range" class="container-five__level-input" min="1" max="11">
+            <p class="container-five__area-pharaph">Этаж</p>
+            <input type="range" min="1" max="11" class="container-five__level-range" id="container-five__level-range">
+            <div class="sub">
+              <p class="start">1</p>
+              <p class="value"><span id="level"></span></p>
+              <p class="end">11</p>
+            </div>
           </div>
           <div class="container-five__cost">
-            <p class="container-five__cost-head"></p>
-            <input type="range" class="container-five__cost-input" min="3782299" max="12032265">
+            <p class="container-five__area-pharaph">Цена</p>
+            <input type="range" class="container-five__cost-range" id="container-five__cost-range" min="3782299" max="12032265">
+            <div class="sub">
+              <p class="start">3 782 299</p>
+              <p class="value"><span id="cost"></span></p>
+              <p class="end">12 032 265</p>
+            </div>
           </div>
           <div class="container-five__summ">
             <button class="container-five__summ-but">Итого</button>
@@ -163,9 +258,9 @@
         <div class="container-five__block-three">
           <p class="container-five__build-text">ЖК Амурская</p>
           <img src="./img/png/cot5-img1.png" alt="build" class="container-five__build-img">
-        </div>
-      </div>
-      <button class="container-five__submit">узнать больше</button>
+         </div>
+      </div> 
+      <button class="container-five__submit">Узнать больше</button>
     </section>
 
     <!-- CONTAINER-FIVE -->
@@ -181,7 +276,7 @@
         </div>
       </div>
     </section>
-    <!-- CONTAINER-FIVE -->
+    
 
 
     <!-- CONTAINER-SIX -->
@@ -544,8 +639,11 @@
     
     </footer>
   </div>
-  <script src="./js/ymap.js" type="text/javascript"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <script src="./js/owl.carousel.min.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="./js/ymap.js" type="text/javascript"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
