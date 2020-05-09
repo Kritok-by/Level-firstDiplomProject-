@@ -1149,7 +1149,8 @@ input[type=radio]:checked + label {
 .container-ten__collapse {
   width: 42%;
 }
-.container-ten__collapse.btn-link[aria-expanded=false]::after {
+
+.container-ten__coll[aria-expanded=false]::after {
   content: "";
   background-image: url(../img/svg/up-arrow.svg);
   background-repeat: no-repeat;
@@ -1158,7 +1159,8 @@ input[type=radio]:checked + label {
   width: 13px;
   height: 8px;
 }
-.container-ten__collapse.btn-link[aria-expanded=true]::after {
+
+.container-ten__coll[aria-expanded=true]::after {
   content: "";
   background-image: url(../img/svg/downloading.svg);
   background-repeat: no-repeat;
