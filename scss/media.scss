@@ -85,7 +85,9 @@
     grid-template-columns: 1fr 1fr;
 
   }
-
+  .container-three .container-three__slider {
+    width: 95%;
+  }
   
   .swiper-button-next, .swiper-button-prev {
     display: none;

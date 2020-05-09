@@ -435,6 +435,7 @@ h2 {
   }
   .container-three__slider {
     position: unset;
+    width: 70%;
     img {
       width: 100%;
       object-fit: cover;
@@ -754,7 +755,8 @@ input[type=radio]:checked {
     border-radius: 200px;
     box-shadow: none;
     margin-right: 50px;
-    color: #fff;transition: 0.5s;
+    color: #fff;
+    transition: 0.5;
     &:hover, &:focus {
       background: none;
       border: 1px solid #6D6253;

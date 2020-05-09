@@ -426,6 +426,7 @@ h2 {
 }
 .container-three .container-three__slider {
   position: unset;
+  width: 70%;
 }
 .container-three .container-three__slider img {
   width: 100%;
@@ -760,7 +761,7 @@ input[type=radio]:checked + label {
   box-shadow: none;
   margin-right: 50px;
   color: #fff;
-  transition: 0.5s;
+  transition: 0.5;
 }
 .container-five__summ .container-five__summ-but:hover, .container-five__summ .container-five__summ-but:focus {
   background: none;
@@ -1592,6 +1593,10 @@ footer button:focus, footer button:hover {
 
   .container-two__advantages {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .container-three .container-three__slider {
+    width: 95%;
   }
 
   .swiper-button-next, .swiper-button-prev {
