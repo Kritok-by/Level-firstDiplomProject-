@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
+  <script src="https://api-maps.yandex.ru/1.1/index.xml"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -23,6 +23,21 @@
           <a href="#" class="container-one__link black-link">ИНТЕРЬЕРЫ</a>
           <a href="#" class="container-one__link white-link">СРОК СТРОИТЕЛЬСТВА</a>
           <a href="#" class="container-one__link white-link">КАК КУПИТЬ</a>
+        </nav>
+        <nav>
+          <div id="menuToggle">
+            <input type="checkbox" />
+              <span></span>
+              <span></span>
+              <span></span>
+              <ul id="menu">
+                <li><a href="#">ГЛАВНАЯ</a></li>
+                <li><a href="#">ПЛАНИРОВКИ</a></li>
+                <li><a href="#">ИНТЕРЬЕРЫ</a></li>
+                <li><a href="#">СРОК СТРОИТЕЛЬСТВА</a></li>
+                <li><a href="#">КАК КУПИТЬ</a></li>
+              </ul>
+          </div>
         </nav>
         <button class="container-one__call-back"><img src="./img/svg/white-phone.svg" alt="phone" class="container-one__call-back_white-phone">Заказать звонок</button>
       </header>
@@ -149,19 +164,19 @@
       <div class="container-four__cards">
         <div class="container-four__card">
           <img src="./img/png/cont4-img1.png" alt="build" class="container-four__img">
-          <p class="container-four__text">Выберите квартиру своеймечты в новом <span class="container-four__red">ЖК АМУРСКАЯ</span>, где традиции стороительства объединились с технологиями.</p>
+          <p class="container-four__text">Выберите квартиру своеймечты в новом <span class="container-four__red">ЖК АМУРСКАЯ</span>,<br>где традиции стороительства объединились с технологиями.</p>
         </div>
         <div class="container-four__card">
           <img src="./img/png/cont4-img2.png" alt="build" class="container-four__img">
-          <p class="container-four__text">Большие <span class="container-four__red">панорамные окна</span> от пола до потолка наполняют квартиру светом и открывают прекрасный вид.</p>
+          <p class="container-four__text">Большие <span class="container-four__red">панорамные окна</span> от пола до потолка наполняют<br>квартиру светом и открывают прекрасный вид.</p>
         </div>
         <div class="container-four__card">
           <img src="./img/png/cont4-ig3.png" alt="build" class="container-four__img">
-          <p class="container-four__text"><span class="container-four__red">В просторных светлых</span>  квартирах  ЖК Амурская легко дышится и можно поставить любую мебель.</p>
+          <p class="container-four__text"><span class="container-four__red">В просторных светлых</span>  квартирах  ЖК Амурская легко<br>дышится и можно поставить любую мебель.</p>
         </div>
         <div class="container-four__card">
           <img src="./img/png/cont4-img4.png" alt="build" class="container-four__img">
-          <p class="container-four__text">В комплексе у вас появляется больше <span class="container-four__red">свободного времени</span> для ваших увлечений отдыха и общения с близкими</p>
+          <p class="container-four__text">В комплексе у вас появляется больше <span class="container-four__red">свободного времени</span><br>для ваших увлечений отдыха и общения с близкими</p>
         </div>
       </div>
     </section>
@@ -169,10 +184,10 @@
     <!-- CONTAINER FOUR -->
     <section class="container-five">
       <h2 class="container-five__header">ПОДОБРАТЬ ПО ПАРАМЕТРАМ</h2>
-      <div class="cintainer-five__calculaitor center">
+      <div class="container-five__calculaitor center">
         <div class="container-five__block-one">
           <form class="container-five__form" id="apart">
-            <div class="container-five__rooms" form="apart">
+            <div class="container-five__rooms">
               <p class="container-five__heading-text">Количество комнат</p>
               <input class="container-five__rooms_radio" id="radio-one" name="radio" type="radio" >
               <label for="radio-one">1</label>
@@ -185,7 +200,7 @@
               <input class="container-five__rooms_radio" id="radio-five" name="radio" type="radio">
               <label for="radio-five">3e</label>
             </div>
-            <div class="container-five__fix" form="apart">
+            <div class="container-five__fix">
               <div class="container-five__with-fix">
                 <p class="container-five__fix-text">C отделкой</p>
                 <input class="container-five__rooms_radio" id="radio-fix" name="radio" type="radio" checked>
@@ -197,12 +212,12 @@
               <label for="radio-witoutfix"></label>
               </div>
             </div>
-            <div class="container-five__other" form="apart">
+            <div class="container-five__other">
               <p class="container-five__fix-text">Дополнительные параметры</p>
               <button><img src="./img/svg/cont5-arrow.svg" alt="arrow"></button>
             </div>
-            <div class="container-five__deadline" form="apart">
-              <p class="cotainer-five__deadline-text">Срок сдачи</p>
+            <div class="container-five__deadline">
+              <p class="container-five__deadline-text">Срок сдачи</p>
               <div class="container-five__deadline-form">
                 <div class="container-five__date">
                   <p class="conyainer-five__date-text">IV кв 2020</p>
@@ -317,20 +332,20 @@
         <div class="container-four__cards">
           <div class="container-four__card">
             <img src="./img/png/cont8-b1-img1.png" alt="build" class="container-four__img">
-            <p class="container-four__text">Мы возьмем на себе все заботы по обустройству вашей <span>новой</span> квартиры</p>
+            <p class="container-four__text">Мы возьмем на себе все заботы по<br>обустройству вашей <span>новой</span> квартиры</p>
           </div>
           <div class="container-four__card">
             <img src="./img/png/cont8-b1-img2.png" alt="build" class="container-four__img">
-            <p class="container-four__text">Мы готовы предложить вам <span>несколько</span> вариантов дизайн - проектов квартир  </p>
-          </div>
-          <div class="container-eight__graffiti">
-            <h4>СТИЛЬ ГРАФФИТИ</h4>
-            <p>Так может выглядеть Ваша квартира в ЖК Амурская</p>
-          </div>  
+            <p class="container-four__text">Мы готовы предложить вам <span>несколько</span><br> вариантов дизайн - проектов квартир  </p>
+          </div> 
         </div>
       </div>
       <div class="container-eight__block-two">
         <div class="center">
+          <div class="container-eight__graffiti">
+            <h4>СТИЛЬ ГРАФФИТИ</h4>
+            <p>Так может выглядеть Ваша<br> квартира в ЖК Амурская</p>
+          </div> 
           <div class="bl1-img1"><img src="./img/png/bl1/1.png" alt=""></div>
           <div class="bl1-img2"><img src="./img/png/bl1/2.png" alt="" ></div>
           <div class="bl1-img3"><img src="./img/png/bl1/3.png" alt=""></div>
@@ -344,13 +359,14 @@
         </div>
       </div>
       <div class="container-eight__block-three center">
-        <div class="container-eight__graffiti">
-          <h4>СТИЛЬ ШАМПАНЬ</h4>
-          <p>Так может выглядеть Ваша квартира в ЖК Амурская</p>
-        </div>  
+         
       </div>
       <div class="container-eight__block-four">
         <div class="center">
+          <div class="container-eight__graffiti">
+            <h4>СТИЛЬ ШАМПАНЬ</h4>
+            <p>Так может выглядеть Ваша<br> квартира в ЖК Амурская</p>
+          </div> 
           <div class="bl1-img1"><img src="./img/png/bl2/1.png" alt=""></div>
           <div class="bl1-img2"><img src="./img/png/bl2/2.png" alt="" ></div>
           <div class="bl1-img3"><img src="./img/png/bl2/3.png" alt=""></div>
@@ -577,9 +593,9 @@
           <ul>
             <li class="text li-one" >Черкизовская</li>
             <li class="text li-two">Локомотив</li>
-            <p class="text">Москва, ул. Амурская, вл.3</p>
-            <p class="text text-two">Ежедневно с 9:00-21:00</p>
-            <a href="#" class="text link-a">Смотреть схему проезда</a>
+            <li class="text">Москва, ул. Амурская, вл.3</li>
+            <li class="text text-two">Ежедневно с 9:00-21:00</li>
+            <li class="text"><a href="#">Смотреть схему проезда</a></li>
           </ul>
         </div>
     </section>
@@ -643,7 +659,7 @@
   <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
   <script src="./js/owl.carousel.min.js"></script>
   <script src="./js/script.js"></script>
-  <script src="./js/ymap.js" type="text/javascript"></script>
+  <script src="./js/ymap.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
