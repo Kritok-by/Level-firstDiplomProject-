@@ -358,18 +358,25 @@ h2 {
 }
 .container-one__intro .preview button {
   background: #FF5C4E;
+  box-shadow: 4px 4px 4px rgba(255, 174, 167, 0.25);
   border-radius: 250px;
-  width: 220px;
-  height: 55px;
   color: #fff;
+  border: none;
   font-weight: 500;
   font-size: 15px;
   transition: 1s;
-  border: none;
+  width: 220px;
+  height: 55px;
 }
 .container-one__intro .preview button:focus, .container-one__intro .preview button:hover {
   background: none;
-  border: 1px solid #Fff;
+  border: 1px solid #FF5C4E;
+  color: #6D6253;
+  outline: none;
+}
+.container-one__intro .preview button:focus, .container-one__intro .preview button:hover {
+  border: 1px solid #fff;
+  color: #fff;
 }
 
 .container-two {
@@ -480,22 +487,26 @@ h2 {
   color: #fff;
 }
 .container-three button {
-  margin-top: 98px;
-  margin-bottom: 130px;
   background: #FF5C4E;
-  border: none;
   box-shadow: 4px 4px 4px rgba(255, 174, 167, 0.25);
   border-radius: 250px;
-  width: 240px;
-  height: 60px;
   color: #fff;
+  border: none;
   font-weight: 500;
   font-size: 15px;
   transition: 1s;
+  margin-top: 98px;
+  margin-bottom: 130px;
+  width: 240px;
+  height: 60px;
 }
 .container-three button:focus, .container-three button:hover {
   background: none;
   border: 1px solid #FF5C4E;
+  color: #6D6253;
+  outline: none;
+}
+.container-three button:focus, .container-three button:hover {
   color: #fff;
 }
 
@@ -647,16 +658,21 @@ h2 {
   background: #FF5C4E;
   box-shadow: 4px 4px 4px rgba(255, 174, 167, 0.25);
   border-radius: 250px;
-  width: 240px;
-  height: 60px;
   color: #fff;
+  border: none;
   font-weight: 500;
   font-size: 15px;
   transition: 1s;
+  width: 240px;
+  height: 60px;
 }
 .container-five__submit:focus, .container-five__submit:hover {
   background: none;
   border: 1px solid #FF5C4E;
+  color: #6D6253;
+  outline: none;
+}
+.container-five__submit:focus, .container-five__submit:hover {
   color: #6D6253;
 }
 
@@ -998,17 +1014,19 @@ input[type=radio]:checked + label {
   background: #FF5C4E;
   box-shadow: 4px 4px 4px rgba(255, 174, 167, 0.25);
   border-radius: 250px;
-  width: 96%;
-  height: 60px;
   color: #fff;
+  border: none;
   font-weight: 500;
   font-size: 15px;
   transition: 1s;
+  width: 96%;
+  height: 60px;
 }
 .container-eight .container-eight__block-two .center .button button:focus, .container-eight .container-eight__block-two .center .button button:hover, .container-eight .container-eight__block-four .center .button button:focus, .container-eight .container-eight__block-four .center .button button:hover {
   background: none;
   border: 1px solid #FF5C4E;
   color: #6D6253;
+  outline: none;
 }
 .container-eight .container-eight__block-three {
   padding-top: 345px;
@@ -1154,16 +1172,16 @@ input[type=radio]:checked + label {
   background: #FF5C4E;
   box-shadow: 4px 4px 4px rgba(255, 174, 167, 0.25);
   border-radius: 250px;
-  width: 200px;
-  height: 55px;
   color: #fff;
+  border: none;
   font-weight: 500;
   font-size: 15px;
-  margin-top: 125px;
   transition: 1s;
+  width: 200px;
+  height: 55px;
+  margin-top: 125px;
 }
-
-.container-ten__more:hover, .container-ten__more:focus {
+.container-ten__more:focus, .container-ten__more:hover {
   background: none;
   border: 1px solid #FF5C4E;
   color: #6D6253;
@@ -1220,18 +1238,23 @@ input[type=radio]:checked + label {
   background: #FF5C4E;
   box-shadow: 4px 4px 4px rgba(255, 174, 167, 0.25);
   border-radius: 250px;
-  width: 260px;
-  height: 55px;
   color: #fff;
+  border: none;
   font-weight: 500;
   font-size: 15px;
   transition: 1s;
-  border: none;
+  width: 260px;
+  height: 55px;
   margin-top: 20px;
 }
 .container-sixteen .container-sixteen__form button:focus, .container-sixteen .container-sixteen__form button:hover {
   background: none;
   border: 1px solid #FF5C4E;
+  color: #6D6253;
+  outline: none;
+}
+.container-sixteen .container-sixteen__form button:hover, .container-sixteen .container-sixteen__form button:focus {
+  color: #fff;
 }
 .container-sixteen .container-sixteen__contacts {
   color: #3B3939;
@@ -1286,18 +1309,22 @@ input[type=radio]:checked + label {
   background: #FF5C4E;
   box-shadow: 4px 4px 4px rgba(255, 174, 167, 0.25);
   border-radius: 250px;
-  width: 280px;
-  height: 60px;
   color: #fff;
+  border: none;
   font-weight: 500;
   font-size: 15px;
   transition: 1s;
-  border: none;
+  width: 280px;
+  height: 60px;
   margin-top: 27%;
 }
 .container-seventeen .container-seventeen__content .list button.container-seventeen__button:focus, .container-seventeen .container-seventeen__content .list button.container-seventeen__button:hover {
   background: none;
   border: 1px solid #FF5C4E;
+  color: #6D6253;
+  outline: none;
+}
+.container-seventeen .container-seventeen__content .list button.container-seventeen__button:focus, .container-seventeen .container-seventeen__content .list button.container-seventeen__button:hover {
   color: #000;
 }
 .container-seventeen .container-seventeen__content .list li:not(:last-child) {

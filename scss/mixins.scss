@@ -1,0 +1,16 @@
+@mixin buttonRedStyle {
+  background: #FF5C4E;
+  box-shadow: 4px 4px 4px rgba(255, 174, 167, 0.25);
+  border-radius: 250px;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+  transition: 1s;
+  &:focus, &:hover {
+    background: none;
+    border: 1px solid #FF5C4E;
+    color: #6D6253;
+    outline: none;
+  }
+}

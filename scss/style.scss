@@ -1,5 +1,5 @@
 
-
+@import 'mixins', 'var';
 
 
 
@@ -365,19 +365,13 @@ h2 {
       margin-bottom: 30px;
     }
     button {
-      background: #FF5C4E;
-            border-radius: 250px;
-            width: 220px;
-            height: 55px;
-            color: #fff;
-            font-weight: 500;
-            font-size: 15px;
-            transition: 1s;
-            border: none;
-            &:focus, &:hover {
-              background: none;
-              border: 1px solid #Fff;
-            }
+      @include buttonRedStyle;
+      width: 220px;
+      height: 55px;
+       &:focus, &:hover {  
+       border: 1px solid #fff;
+       color: #fff;
+        }
     }
     
   }
@@ -489,23 +483,14 @@ h2 {
     }
   }
   button {
+    @include buttonRedStyle;
     margin-top: 98px;
     margin-bottom: 130px;
-    background: #FF5C4E;
-    border: none;
-          box-shadow: 4px 4px 4px rgba(255, 174, 167, 0.25);
-          border-radius: 250px;
-          width: 240px;
-          height: 60px;
-          color: #fff;
-          font-weight: 500;
-          font-size: 15px;
-          transition: 1s;
-          &:focus, &:hover {
-            background: none;
-            border: 1px solid #FF5C4E;
-            color: #fff;
-          }
+    width: 240px;
+    height: 60px; 
+   &:focus, &:hover {
+      color: #fff;
+    }
   }
 }
 
@@ -658,20 +643,12 @@ h2 {
   
 }
 .container-five__submit {
-  background: #FF5C4E;
-          box-shadow: 4px 4px 4px rgba(255, 174, 167, 0.25);
-          border-radius: 250px;
-          width: 240px;
-          height: 60px;
-          color: #fff;
-          font-weight: 500;
-          font-size: 15px;
-          transition: 1s;
-          &:focus, &:hover {
-            background: none;
-            border: 1px solid #FF5C4E;
-            color: #6D6253;
-          }
+  @include buttonRedStyle;
+  width: 240px;
+  height: 60px;        
+  &:focus, &:hover {
+    color: #6D6253;
+  }
 }
 input[type=radio] {
 	display: none;
@@ -953,20 +930,9 @@ input[type=radio]:checked {
         padding-top: 13%;
         padding-left: 13%;
         button {
-          background: #FF5C4E;
-          box-shadow: 4px 4px 4px rgba(255, 174, 167, 0.25);
-          border-radius: 250px;
+          @include buttonRedStyle;
           width: 96%;
           height: 60px;
-          color: #fff;
-          font-weight: 500;
-          font-size: 15px;
-          transition: 1s;
-          &:focus, &:hover {
-            background: none;
-            border: 1px solid #FF5C4E;
-            color: #6D6253;
-          }
         }
       }
     }
@@ -1105,23 +1071,10 @@ input[type=radio]:checked {
 	}
 }
 .container-ten__more {
-	background: #FF5C4E;
-	box-shadow: 4px 4px 4px rgba(255, 174, 167, 0.25);
-	border-radius: 250px;
+	@include buttonRedStyle;
 	width: 200px;
 	height: 55px;
-	color: #fff;
-	font-weight: 500;
-	font-size: 15px;
-	margin-top: 125px;
-  transition: 1s;
-  
-}
-.container-ten__more:hover, .container-ten__more:focus {
-	background: none;
-	border: 1px solid #FF5C4E;
-	color: #6D6253;
-	outline: none;
+	margin-top: 125px; 
 }
 
 // CONTAINER-TEN
@@ -1169,20 +1122,12 @@ input[type=radio]:checked {
       &:focus::-webkit-input-placeholder {color: transparent}
     }
     button {
-      background: #FF5C4E;
-          box-shadow: 4px 4px 4px rgba(255, 174, 167, 0.25);
-          border-radius: 250px;
+      @include buttonRedStyle;
           width: 260px;
           height: 55px;
-          color: #fff;
-          font-weight: 500;
-          font-size: 15px;
-          transition: 1s;
-          border: none;
           margin-top: 20px;
-          &:focus, &:hover {
-            background: none;
-            border: 1px solid #FF5C4E;
+          &:hover, &:focus {
+            color: #fff;
           }
 
     }
@@ -1242,20 +1187,11 @@ input[type=radio]:checked {
       margin-left: 12%;
       padding-top: 7%;
       button.container-seventeen__button {
-        background: #FF5C4E;
-            box-shadow: 4px 4px 4px rgba(255, 174, 167, 0.25);
-            border-radius: 250px;
+        @include buttonRedStyle;
             width: 280px;
             height: 60px;
-            color: #fff;
-            font-weight: 500;
-            font-size: 15px;
-            transition: 1s;
-            border: none;
             margin-top: 27%;
             &:focus, &:hover {
-              background: none;
-              border: 1px solid #FF5C4E;
               color: #000;
             }
     }
@@ -1417,6 +1353,6 @@ input[type=radio]:checked {
 
 
 
-    @import 'media', 'mixins', 'var';    
+    @import 'media';    
    
   
