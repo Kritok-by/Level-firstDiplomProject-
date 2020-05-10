@@ -248,7 +248,7 @@ h2 {
   background-color: rgba(61, 61, 61, 0.5);
 }
 .container-one__intro .horisontal-slider .owl-dots button span {
-  display: none;
+  opacity: 0;
 }
 .container-one__intro .horisontal-slider .owl-dots button:first-child::before {
   position: absolute;
@@ -619,7 +619,8 @@ h2 {
   margin: 0;
 }
 .container-five__calculaitor .container-five__deadline .container-five__deadline-text {
-  margin-right: 8%;
+  margin-right: 14%;
+  word-wrap: normal;
 }
 .container-five__calculaitor .container-five__deadline .container-five__deadline-form {
   flex-basis: 65%;
