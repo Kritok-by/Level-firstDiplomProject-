@@ -402,8 +402,10 @@
     }
   }
   .container-three .swiper-scrollbar {
-    left: 1%;
-    max-width: none;
+    left: calc(50% - 145px);
+    &::after, &::before {
+      display: none;
+    }
   }
 
   .container-three button {
