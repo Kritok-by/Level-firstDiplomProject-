@@ -362,7 +362,12 @@
             }
     }
   }
-  
+  .container-one__intro .horisontal-slider div {
+    height: 600px;
+  }
+  .owl-carousel .owl-stage-outer {
+    height: 600px;
+  }
   .container-one__intro .preview {
     width: 75%;
     left: 3%;
@@ -372,6 +377,9 @@
     }
     p {
       font-size: 15px;
+    }
+    button {
+      width: 90%;
     }
   }
 
@@ -393,7 +401,6 @@
       padding: 5%;
     }
   }
-
   .container-three .swiper-scrollbar {
     left: 1%;
     max-width: none;
@@ -436,7 +443,7 @@
   }
 
   .container-eight .container-eight__block-two, .container-eight .container-eight__block-four {
-    height: 1938px;
+    height: 2100px;;
   }
 
   .container-eight .container-eight__block-two .center, .container-eight .container-eight__block-four .center {
@@ -490,10 +497,18 @@
   footer {
     .center {
       .block {
-        flex-basis: 100%;
-        text-align: center;
         &:nth-child(2) {
-          padding-left: 0;
+          padding-left: 22%;
+          margin-bottom: 0;
+        }
+        flex-basis: 100%;
+        padding-left: 22%;
+        
+        &:nth-child(3) {
+          a{
+            margin-top: 0;
+          }
+          
         }
         &:last-child {
           padding-left: 10%;

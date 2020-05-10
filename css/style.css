@@ -31,7 +31,7 @@ h2 {
 }
 
 .container-one {
-  background: linear-gradient(to right, white 50%, #627481 50%);
+  background: linear-gradient(to right, white 47%, #627481 47%, #627481 100%);
 }
 
 .container-one__navigation {
@@ -593,6 +593,7 @@ h2 {
   margin: 0;
 }
 .container-five__calculaitor .container-five__with-fix button, .container-five__calculaitor .container-five__without-fix button, .container-five__calculaitor .container-five__other button {
+  background: none;
   width: 32px;
   height: 32px;
   border: 1px solid #6D6253;
@@ -642,6 +643,7 @@ h2 {
   align-items: center;
 }
 .container-five__calculaitor .container-five__reset button {
+  background: none;
   border: none;
   box-shadow: none;
   width: 23px;
@@ -710,19 +712,12 @@ input[type=radio]:checked + label {
   margin-bottom: 15px;
   position: relative;
   -webkit-appearance: none;
-  /* Override default CSS styles */
   appearance: none;
   width: 365px;
-  /* Full-width */
   height: 3px;
-  /* Specified height */
   background: #6D6253;
-  /* Grey background */
   outline: none;
-  /* Remove outline */
   opacity: 0.7;
-  /* Set transparency (for mouse-over effects on hover) */
-  /* 0.2 seconds transition on hover */
   transition: opacity 0.2s;
 }
 .container-five__area-range:hover, .container-five__level-range:hover, .container-five__cost-range:hover {
@@ -730,28 +725,25 @@ input[type=radio]:checked + label {
 }
 .container-five__area-range::-webkit-slider-thumb, .container-five__level-range::-webkit-slider-thumb, .container-five__cost-range::-webkit-slider-thumb {
   -webkit-appearance: none;
-  /* Override default look */
   appearance: none;
-  width: 25px;
-  /* Set a specific slider handle width */
-  height: 25px;
-  /* Slider handle height */
+  width: 30px;
+  height: 30px;
+  border: none;
   background: url(../img/svg/range-thumb.svg);
-  border-radius: 50%;
-  /* Green background */
   cursor: pointer;
-  /* Cursor on hover */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .container-five__area-range ::-moz-range-thumb, .container-five__level-range ::-moz-range-thumb, .container-five__cost-range ::-moz-range-thumb {
-  width: 25px;
-  /* Set a specific slider handle width */
-  height: 25px;
-  border-radius: 50%;
-  /* Slider handle height */
+  width: 30px;
+  height: 30px;
+  border: none;
   background: url(../img/svg/range-thumb.svg);
-  /* Green background */
   cursor: pointer;
-  /* Cursor on hover */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .container-five__area-range::before, .container-five__level-range::before, .container-five__cost-range::before {
   content: url(../img/svg/circle-range.svg);
@@ -777,7 +769,7 @@ input[type=radio]:checked + label {
   box-shadow: none;
   margin-right: 50px;
   color: #fff;
-  transition: 0.5;
+  transition: 0.5s;
 }
 .container-five__summ .container-five__summ-but:hover, .container-five__summ .container-five__summ-but:focus {
   background: none;
@@ -1233,6 +1225,15 @@ input[type=radio]:checked + label {
   display: block;
   color: #fff;
 }
+.container-sixteen .container-sixteen__form input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+.container-sixteen .container-sixteen__form input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+.container-sixteen .container-sixteen__form input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
 .container-sixteen .container-sixteen__form input:focus::-webkit-input-placeholder {
   color: transparent;
 }
@@ -1450,6 +1451,13 @@ footer .contact img {
 footer .subfooter {
   display: flex;
   justify-content: space-around;
+}
+footer .subfooter button {
+  border: none;
+  box-shadow: none;
+}
+footer .subfooter button:hover, footer .subfooter button:focus {
+  background: none;
 }
 footer button {
   background: none;
@@ -2029,6 +2037,14 @@ footer button:focus, footer button:hover {
     color: #232323;
   }
 
+  .container-one__intro .horisontal-slider div {
+    height: 600px;
+  }
+
+  .owl-carousel .owl-stage-outer {
+    height: 600px;
+  }
+
   .container-one__intro .preview {
     width: 75%;
     left: 3%;
@@ -2038,6 +2054,9 @@ footer button:focus, footer button:hover {
   }
   .container-one__intro .preview p {
     font-size: 15px;
+  }
+  .container-one__intro .preview button {
+    width: 90%;
   }
 
   .container-one__intro .vertical-slider .horisontal-slider .owl-dots button {
@@ -2102,7 +2121,7 @@ footer button:focus, footer button:hover {
   }
 
   .container-eight .container-eight__block-two, .container-eight .container-eight__block-four {
-    height: 1938px;
+    height: 2100px;
   }
 
   .container-eight .container-eight__block-two .center, .container-eight .container-eight__block-four .center {
@@ -2140,10 +2159,14 @@ footer button:focus, footer button:hover {
 
   footer .center .block {
     flex-basis: 100%;
-    text-align: center;
+    padding-left: 22%;
   }
   footer .center .block:nth-child(2) {
-    padding-left: 0;
+    padding-left: 22%;
+    margin-bottom: 0;
+  }
+  footer .center .block:nth-child(3) a {
+    margin-top: 0;
   }
   footer .center .block:last-child {
     padding-left: 10%;

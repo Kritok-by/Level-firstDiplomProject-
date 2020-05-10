@@ -33,7 +33,7 @@ h2 {
 	margin: auto;
 }
 .container-one {
-	background: linear-gradient(to right, white 50%, #627481 50%);
+	background: linear-gradient(to right, white 47%, #627481 47%, #627481 100%);
 }
 .container-one__navigation {
 	margin-left: 107px;
@@ -577,6 +577,7 @@ h2 {
       margin: 0;
     }
     button {
+      background: none;
       width: 32px;
       height: 32px;
       border: 1px solid #6D6253;
@@ -627,6 +628,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     button {
+      background: none;
       border: none;
       box-shadow: none;
       width: 23px;
@@ -683,33 +685,39 @@ input[type=radio]:checked {
   
   margin-bottom: 15px;
     position: relative;
-    -webkit-appearance: none;  /* Override default CSS styles */
+    -webkit-appearance: none;
     appearance: none;
-    width: 365px; /* Full-width */
-    height: 3px; /* Specified height */
-    background: #6D6253; /* Grey background */
-    outline: none; /* Remove outline */
-    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
-    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    width: 365px;
+    height: 3px;
+    background: #6D6253;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
     transition: opacity .2s;
     &:hover {
       opacity: 1;
     }
     &::-webkit-slider-thumb {
-      -webkit-appearance: none; /* Override default look */
+      -webkit-appearance: none;
       appearance: none;
-      width: 25px; /* Set a specific slider handle width */
-      height: 25px; /* Slider handle height */
+      width: 30px; 
+      height: 30px;
+      border: none; 
       background: url(../img/svg/range-thumb.svg);
-      border-radius: 50%; /* Green background */
-      cursor: pointer; /* Cursor on hover */
+      cursor: pointer;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
   }
   ::-moz-range-thumb {
-    width: 25px; /* Set a specific slider handle width */
-    height: 25px;
-    border-radius: 50%; /* Slider handle height */
-    background: url(../img/svg/range-thumb.svg); /* Green background */
-    cursor: pointer; /* Cursor on hover */
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: url(../img/svg/range-thumb.svg);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
   &::before {
     content: url(../img/svg/circle-range.svg);
@@ -733,7 +741,7 @@ input[type=radio]:checked {
     box-shadow: none;
     margin-right: 50px;
     color: #fff;
-    transition: 0.5;
+    transition: 0.5s;
     &:hover, &:focus {
       background: none;
       border: 1px solid #6D6253;
@@ -1120,6 +1128,9 @@ input[type=radio]:checked {
       border: none;
       display: block;
       color: #fff;
+      &::-webkit-input-placeholder {color:rgba(255, 255, 255, 0.7);}
+      &::-moz-placeholder          {color:rgba(255, 255, 255, 0.7);}
+      &:-ms-input-placeholder      {color:rgba(255, 255, 255, 0.7);}
       &:focus::-webkit-input-placeholder {color: transparent}
     }
     button {
@@ -1330,6 +1341,13 @@ input[type=radio]:checked {
     .subfooter {
       display: flex;
       justify-content: space-around;
+      button {
+        border: none;
+        box-shadow: none;
+        &:hover, &:focus {
+          background: none;
+        }
+      }
       
       }
       button {

@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://api-maps.yandex.ru/1.1/index.xml"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -18,11 +19,11 @@
       <header class="container-one__header center">
         <img src="./img/svg/logo.svg" alt="logo" class="container-one__logo">
         <nav class="container-one__navigation">
-          <a href="#" class="container-one__link black-link">ГЛАВНАЯ</a>
-          <a href="#" class="container-one__link black-link">ПЛАНИРОВКИ</a>
-          <a href="#" class="container-one__link black-link">ИНТЕРЬЕРЫ</a>
-          <a href="#" class="container-one__link white-link">СРОК СТРОИТЕЛЬСТВА</a>
-          <a href="#" class="container-one__link white-link">КАК КУПИТЬ</a>
+          <a href="#main" class="container-one__link black-link">ГЛАВНАЯ</a>
+          <a href="#plan" class="container-one__link black-link">ПЛАНИРОВКИ</a>
+          <a href="#interiers" class="container-one__link black-link">ИНТЕРЬЕРЫ</a>
+          <a href="#time" class="container-one__link white-link">СРОК СТРОИТЕЛЬСТВА</a>
+          <a href="#howBuy" class="container-one__link white-link">КАК КУПИТЬ</a>
         </nav>
         <nav>
           <div id="menuToggle">
@@ -31,17 +32,17 @@
               <span></span>
               <span></span>
               <ul id="menu">
-                <li><a href="#">ГЛАВНАЯ</a></li>
-                <li><a href="#">ПЛАНИРОВКИ</a></li>
-                <li><a href="#">ИНТЕРЬЕРЫ</a></li>
-                <li><a href="#">СРОК СТРОИТЕЛЬСТВА</a></li>
-                <li><a href="#">КАК КУПИТЬ</a></li>
+                <li><a href="#main">ГЛАВНАЯ</a></li>
+                <li><a href="#plan">ПЛАНИРОВКИ</a></li>
+                <li><a href="#interiers">ИНТЕРЬЕРЫ</a></li>
+                <li><a href="#time">СРОК СТРОИТЕЛЬСТВА</a></li>
+                <li><a href="#howBuy">КАК КУПИТЬ</a></li>
               </ul>
           </div>
         </nav>
         <button class="container-one__call-back"><img src="./img/svg/white-phone.svg" alt="phone" class="container-one__call-back_white-phone">Заказать звонок</button>
       </header>
-      <div class="container-one__intro">
+      <div class="container-one__intro" id="main">
         <div class="courusel">
           <div class="vertical-slider owl-carousel owl-theme">
             <div class="prev">
@@ -137,7 +138,7 @@
 
     <!-- CONTAINER_TWO -->
 
-    <section class="container-three ">
+    <section class="container-three">
       <h2 class="container-three__header">ГАЛЕРЕЯ КОМПЛЕКСА</h2>
       <div class="container-three__slider swiper-container center">
         <div class="swiper-wrapper">
@@ -182,7 +183,7 @@
     </section>
 
     <!-- CONTAINER FOUR -->
-    <section class="container-five">
+    <section class="container-five" id="plan">
       <h2 class="container-five__header">ПОДОБРАТЬ ПО ПАРАМЕТРАМ</h2>
       <div class="container-five__calculaitor center">
         <div class="container-five__block-one">
@@ -326,7 +327,7 @@
 
     <!-- CONTAINER-SEVEN -->
 
-    <section class="container-eight">
+    <section class="container-eight" id="interiers">
       <div class="container-eight__block-one center">
         <h2 class="container-four__header">ИНТЕРЬЕРНЫЕ РЕШЕНИЯ</h2>
         <div class="container-four__cards">
@@ -415,7 +416,7 @@
     
     <!-- CONTAINER-NINE -->
 
-    <section class="container-ten center">
+    <section class="container-ten center" id="ways">
       <h2 class="container-ten__header">СПОСОБЫ ОПЛАТЫ</h2>
       <div class="container-ten__info">
         <img src="./img/png/cont10-img.png" alt="img">
@@ -595,7 +596,7 @@
             <li class="text li-two">Локомотив</li>
             <li class="text">Москва, ул. Амурская, вл.3</li>
             <li class="text text-two">Ежедневно с 9:00-21:00</li>
-            <li class="text"><a href="#">Смотреть схему проезда</a></li>
+            <li class="text"><a href="https://yandex.by/maps/213/moscow/?ll=37.629091%2C55.731932&origin=jsapi&utm_medium=mapframe&utm_source=maps&z=16.52" target="_blank">Смотреть схему проезда</a></li>
           </ul>
         </div>
     </section>
@@ -609,15 +610,15 @@
       </div>
       <div class="block">
         <ul>
-          <li><a href="#" class="first-child">ГЛАВНАЯ</a></li>
-          <li><a href="#">ПЛАНИРОВКИ</a></li>
-          <li><a href="#">ИНТЕРЬЕРЫ</a></li>
-          <li><a href="#">СРОК СТРОИТЕЛЬСТВА</a></li>
-          <li><a href="#">КАК КУПИТЬ</a></li>
+          <li><a href="#main" class="first-child">ГЛАВНАЯ</a></li>
+          <li><a href="#plan">ПЛАНИРОВКИ</a></li>
+          <li><a href="#interiers">ИНТЕРЬЕРЫ</a></li>
+          <li><a href="#time">СРОК СТРОИТЕЛЬСТВА</a></li>
+          <li><a href="#howBuy">КАК КУПИТЬ</a></li>
         </ul>
       </div>
       <div class="block">
-        <a href="#">СПОСОБЫ<br>ПОКУПКИ</a>
+        <a href="#ways">СПОСОБЫ<br>ПОКУПКИ</a>
       </div>
       <div class="block">
         <div class="contact">
@@ -649,13 +650,13 @@
         <button>ЗАКАЗАТЬ ЗВОНОК</button>
       </div>
       </div>
-      <div class="subfooter">
-        <a href="#"><img src="./img/svg/foot-arrow.svg" alt="up"></a>
+      <div class="subfooter" id="back-top">
+        <a href="#main"><img src="./img/svg/foot-arrow.svg" alt="up"></a>
       </div>
     
     </footer>
   </div>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  
   <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
   <script src="./js/owl.carousel.min.js"></script>
   <script src="./js/script.js"></script>
