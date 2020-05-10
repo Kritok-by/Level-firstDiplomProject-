@@ -769,6 +769,7 @@ input[type=radio]:checked + label {
   box-shadow: none;
   margin-right: 50px;
   color: #fff;
+  border: none;
   transition: 0.5s;
 }
 .container-five__summ .container-five__summ-but:hover, .container-five__summ .container-five__summ-but:focus {
@@ -2121,7 +2122,7 @@ footer button:focus, footer button:hover {
   }
 
   .container-eight .container-eight__block-two, .container-eight .container-eight__block-four {
-    height: 2100px;
+    height: 2170px;
   }
 
   .container-eight .container-eight__block-two .center, .container-eight .container-eight__block-four .center {
