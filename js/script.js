@@ -3,7 +3,7 @@ $(document).ready(function(){
   $(".vertical-slider").owlCarousel({
     items: 1,
     loop: true,
-    lazyLoadEager: 4,
+    // lazyLoadEager: 4,
     dotsContainer: $(".dots-vertical-container"),
     navContainer: $(".nav-vertical-container"),
     animateOut: 'fadeOut'
@@ -17,7 +17,7 @@ $(document).ready(function(){
   $(".horisontal-slider").owlCarousel({
     items: 1,
     loop: true,
-    lazyLoadEager: 4,
+    // lazyLoadEager: 4,
     touchDrag: true,
   });
 });
