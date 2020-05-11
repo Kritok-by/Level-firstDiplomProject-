@@ -14,3 +14,14 @@
     outline: none;
   }
 }
+
+
+@mixin redSpan ($span: true, $color: #F53C52){
+  @if $span {
+    
+      color: #3b3939;
+    
+  }
+  color: $color;
+  font-weight: 500;
+}

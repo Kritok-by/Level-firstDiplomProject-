@@ -26,7 +26,7 @@ h2 {
 	font-family: 'Roboto', sans-serif;
 	color: #3B3939;
 	line-height: 140%;
-	margin: auto;
+  margin: auto;
 }
 .center {
 	max-width: 1365px;
@@ -517,12 +517,15 @@ h2 {
 	display: block;
 	margin-top: 24px;
 	font-weight: 300;
-	font-size: 15px;
+  font-size: 15px;
+  span {
+    @include redSpan;
+  }
 }
-.container-four__red {
-	color: #F53C52;
-	font-weight: 500;
-}
+// .container-four__red {
+// 	color: #F53C52;
+// 	font-weight: 500;
+// }
 
 // conteiner-four
 
@@ -871,8 +874,8 @@ input[type=radio]:checked {
    font-size: 20px;
    line-height: 140%;
    span {
-    color: #F53C52;
-   }
+    @include redSpan;
+    }
   }
   .container-eight__block-two, .container-eight__block-four {
     background: #EAEAEA;

@@ -536,8 +536,8 @@ h2 {
   font-weight: 300;
   font-size: 15px;
 }
-
-.container-four__red {
+.container-four__text span {
+  color: #3b3939;
   color: #F53C52;
   font-weight: 500;
 }
@@ -901,7 +901,9 @@ input[type=radio]:checked + label {
   line-height: 140%;
 }
 .container-eight p span {
+  color: #3b3939;
   color: #F53C52;
+  font-weight: 500;
 }
 .container-eight .container-eight__block-two, .container-eight .container-eight__block-four {
   background: #EAEAEA;
