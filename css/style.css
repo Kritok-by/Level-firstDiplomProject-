@@ -1148,26 +1148,6 @@ input[type=radio]:checked + label {
   width: 42%;
 }
 
-.container-ten__coll[aria-expanded=false]::after {
-  content: "";
-  background-image: url(../img/svg/up-arrow.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  width: 13px;
-  height: 8px;
-}
-
-.container-ten__coll[aria-expanded=true]::after {
-  content: "";
-  background-image: url(../img/svg/downloading.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  width: 13px;
-  height: 8px;
-}
-
 .container-ten__more {
   background: #FF5C4E;
   box-shadow: 4px 4px 4px rgba(255, 174, 167, 0.25);
@@ -1638,6 +1618,10 @@ footer button:focus, footer button:hover {
     grid-template-columns: 1fr 1fr;
   }
 
+  .container-three button {
+    width: 290px;
+  }
+
   .container-three .container-three__slider {
     width: 95%;
   }
@@ -1650,6 +1634,7 @@ footer button:focus, footer button:hover {
     grid-template-columns: 1fr;
     justify-items: center;
     grid-gap: 0;
+    text-align: center;
   }
   .container-four__cards .container-four__card:not(:last-child) {
     margin-bottom: 55px;
@@ -1743,6 +1728,9 @@ footer button:focus, footer button:hover {
     justify-content: center;
     padding: 0;
     text-align: center;
+  }
+  .container-sixteen .container-sixteen__form button {
+    width: 100%;
   }
 
   .container-eighteen .info {
@@ -1878,8 +1866,12 @@ footer button:focus, footer button:hover {
     height: 1281px;
   }
 
+  .container-eight .container-eight__block-two .center .container-eight__graffiti, .container-eight .container-eight__block-four .center .container-eight__graffiti {
+    text-align: center;
+  }
+
   .container-eight .container-eight__block-two .center, .container-eight .container-eight__block-four .center {
-    grid-template-areas: ". . . . z z z z . . ." "a a a a a a e e e e e" "a a a a a a e e e e e" "d d d d d d d d d d d" "d d d d d d d d d d d" "d d d d d d d d d d d" "d d d d d d d d d d d" "d d d d d d d d d d d" "k k k k k k k i i i i" "k k k k k k k i i i i" "k k k k k k k i i i i" "f f f f f c c c b b b" "f f f f f c c c b b b" "f f f f f c c c b b b" "g g g g g . . . . . ." "g g g g g . j j j j ." "g g g g g . . . . . .";
+    grid-template-areas: ". . . z z z z z . . ." "a a a a a a e e e e e" "a a a a a a e e e e e" "d d d d d d d d d d d" "d d d d d d d d d d d" "d d d d d d d d d d d" "d d d d d d d d d d d" "d d d d d d d d d d d" "k k k k k k k i i i i" "k k k k k k k i i i i" "k k k k k k k i i i i" "f f f f f c c c b b b" "f f f f f c c c b b b" "f f f f f c c c b b b" "g g g g g . . . . . ." "g g g g g j j j j j j" "g g g g g . . . . . .";
   }
 
   .container-seven__advantage {
@@ -1910,6 +1902,9 @@ footer button:focus, footer button:hover {
   .container-seventeen .container-seventeen__content img {
     width: 100%;
   }
+  .container-seventeen .container-seventeen__content .list button.container-seventeen__button {
+    width: 100%;
+  }
 
   .container-eighteen .info {
     width: 50%;
@@ -1934,8 +1929,8 @@ footer button:focus, footer button:hover {
   .container-eight .container-eight__block-two .center .container-eight__graffiti, .container-eight .container-eight__block-four .center .container-eight__graffiti {
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
-    -ms-grid-column: 5;
-    -ms-grid-column-span: 4;
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 5;
   }
 
   .container-eight .container-eight__block-two .center .bl1-img1, .container-eight .container-eight__block-four .center .bl1-img1 {
@@ -2004,8 +1999,8 @@ footer button:focus, footer button:hover {
   .container-eight .container-eight__block-two .center .button, .container-eight .container-eight__block-four .center .button {
     -ms-grid-row: 16;
     -ms-grid-row-span: 1;
-    -ms-grid-column: 7;
-    -ms-grid-column-span: 4;
+    -ms-grid-column: 6;
+    -ms-grid-column-span: 6;
   }
 }
 @media (max-width: 450px) {
@@ -2091,10 +2086,6 @@ footer button:focus, footer button:hover {
     display: none;
   }
 
-  .container-three button {
-    width: 100%;
-  }
-
   .container-five__calculaitor {
     padding-left: 0;
   }
@@ -2129,7 +2120,7 @@ footer button:focus, footer button:hover {
   }
 
   .container-eight .container-eight__block-two, .container-eight .container-eight__block-four {
-    height: 2170px;
+    height: 2485px;
   }
 
   .container-eight .container-eight__block-two .center, .container-eight .container-eight__block-four .center {
@@ -2146,15 +2137,28 @@ footer button:focus, footer button:hover {
   }
 
   .container-ten .btn {
-    padding-left: 5%;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    justify-content: center;
   }
 
   .container-sixteen .container-sixteen__form input {
     width: 100%;
   }
 
+  .container-sixteen .container-sixteen__contacts .container-sixteen__advantages .container-sixteen__advantage {
+    display: block;
+    text-align: center;
+  }
+  .container-sixteen .container-sixteen__contacts .container-sixteen__advantages .container-sixteen__advantage img {
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+
   .container-seventeen .container-seventeen__content .list {
     font-size: 15px;
+    margin: 0;
   }
 
   .container-seventeen .container-seventeen__content .list button.container-seventeen__button {
@@ -2163,22 +2167,43 @@ footer button:focus, footer button:hover {
 
   .container-eighteen .info {
     width: 100%;
+    text-align: center;
+  }
+  .container-eighteen .info .li-one, .container-eighteen .info .li-two {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   footer .center .block {
+    text-align: center;
     flex-basis: 100%;
-    padding-left: 22%;
+    padding: 0;
   }
   footer .center .block:nth-child(2) {
-    padding-left: 22%;
+    padding: 0;
     margin-bottom: 0;
   }
   footer .center .block:nth-child(3) a {
     margin-top: 0;
   }
   footer .center .block:last-child {
-    padding-left: 10%;
-    text-align: left;
+    padding: 0;
+  }
+  footer .center .block:last-child .contact {
+    display: block;
+  }
+  footer .center .block:last-child .contact .text {
+    margin-left: 0;
+  }
+  footer .center .block:last-child .contact img {
+    margin-bottom: 15px;
+  }
+  footer .center .block:last-child .contact h6 {
+    margin-left: 0;
+  }
+  footer .center .block:last-child .contact p {
+    margin-left: 0;
   }
 
   .container-eight .container-eight__block-two .center .container-eight__graffiti, .container-eight .container-eight__block-four .center .container-eight__graffiti {
