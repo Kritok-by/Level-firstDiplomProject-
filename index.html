@@ -1,34 +1,60 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://api-maps.yandex.ru/1.1/index.xml"></script>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="icon" href="./img/logo-title.ico" /> 
-  <title>Level Амурская</title>
-</head>
-<body>
-  <div class="wrapper">
-    <section class="container-one">
-      <header class="container-one__header center">
-        <img src="./img/svg/logo.svg" alt="logo" class="container-one__logo">
-        <nav class="container-one__navigation">
-          <a href="#main" class="container-one__link black-link">ГЛАВНАЯ</a>
-          <a href="#plan" class="container-one__link black-link">ПЛАНИРОВКИ</a>
-          <a href="#interiers" class="container-one__link black-link">ИНТЕРЬЕРЫ</a>
-          <a href="#time" class="container-one__link white-link">СРОК СТРОИТЕЛЬСТВА</a>
-          <a href="#howBuy" class="container-one__link white-link">КАК КУПИТЬ</a>
-        </nav>
-        <nav>
-          <div id="menuToggle">
-            <input type="checkbox" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://api-maps.yandex.ru/1.1/index.xml"></script>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700&display=swap&subset=cyrillic"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./img/logo-title.ico" />
+    <title>Level Амурская</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="container-one">
+        <header class="container-one__header center">
+          <img
+            src="./img/svg/logo.svg"
+            alt="logo"
+            class="container-one__logo"
+          />
+          <nav class="container-one__navigation">
+            <a href="#main" class="container-one__link black-link">ГЛАВНАЯ</a>
+            <a href="#plan" class="container-one__link black-link"
+              >ПЛАНИРОВКИ</a
+            >
+            <a href="#interiers" class="container-one__link black-link"
+              >ИНТЕРЬЕРЫ</a
+            >
+            <a href="#time" class="container-one__link white-link"
+              >СРОК СТРОИТЕЛЬСТВА</a
+            >
+            <a href="#howBuy" class="container-one__link white-link"
+              >КАК КУПИТЬ</a
+            >
+          </nav>
+          <nav>
+            <div id="menuToggle">
+              <input type="checkbox" />
               <span></span>
               <span></span>
               <span></span>
@@ -39,630 +65,969 @@
                 <li><a href="#time">СРОК СТРОИТЕЛЬСТВА</a></li>
                 <li><a href="#howBuy">КАК КУПИТЬ</a></li>
               </ul>
-          </div>
-        </nav>
-        <button class="container-one__call-back"><img src="./img/svg/white-phone.svg" alt="phone" class="container-one__call-back_white-phone">Заказать звонок</button>
-      </header>
-      <div class="container-one__intro" id="main">
-        <div class="courusel">
-          <div class="vertical-slider owl-carousel owl-theme">
-            <div class="prev">
-              <div class="horisontal-slider owl-carousel owl-theme">
-                <div class="img1"></div>
-                <div class="img2"></div>
-                <div class="img3"></div>
-                <div class="img4"></div>
+            </div>
+          </nav>
+          <button class="container-one__call-back">
+            <img
+              src="./img/svg/white-phone.svg"
+              alt="phone"
+              class="container-one__call-back_white-phone"
+            />Заказать звонок
+          </button>
+        </header>
+        <div class="container-one__intro" id="main">
+          <div class="courusel">
+            <div class="vertical-slider owl-carousel owl-theme">
+              <div class="prev">
+                <div class="horisontal-slider owl-carousel owl-theme">
+                  <div class="img1"></div>
+                  <div class="img2"></div>
+                  <div class="img3"></div>
+                  <div class="img4"></div>
+                </div>
+              </div>
+              <div class="prev">
+                <div class="horisontal-slider owl-carousel owl-theme">
+                  <div class="img2"></div>
+                  <div class="img3"></div>
+                  <div class="img4"></div>
+                  <div class="img1"></div>
+                </div>
+              </div>
+              <div class="prev">
+                <div class="horisontal-slider owl-carousel owl-theme">
+                  <div class="img3"></div>
+                  <div class="img4"></div>
+                  <div class="img1"></div>
+                  <div class="img2"></div>
+                </div>
+              </div>
+              <div class="prev">
+                <div class="horisontal-slider owl-carousel owl-theme">
+                  <div class="img4"></div>
+                  <div class="img1"></div>
+                  <div class="img2"></div>
+                  <div class="img3"></div>
+                </div>
               </div>
             </div>
-            <div class="prev">
-              <div class="horisontal-slider owl-carousel owl-theme">
-                <div class="img2"></div>
-                <div class="img3"></div>
-                <div class="img4"></div>
-                <div class="img1"></div>
-              </div>
-            </div>
-            <div class="prev">
-              <div class="horisontal-slider owl-carousel owl-theme">
-                <div class="img3"></div>
-                <div class="img4"></div>
-                <div class="img1"></div>
-                <div class="img2"></div>
-              </div>
-            </div>
-            <div class="prev">
-              <div class="horisontal-slider owl-carousel owl-theme">
-                <div class="img4"></div>
-                <div class="img1"></div>
-                <div class="img2"></div>
-                <div class="img3"></div>
-              </div>
-            </div>
-          </div>
 
-          <div class="dots-vertical-container">
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
-          </div>
-          <div class="nav-vertical-container">
-          </div>
-          <div class="preview">
-            <h1>КОМФОРТНАЯ СРЕДА ДЛЯ ЖИЗНИ</h1>
-            <p>Cэкономьте с нами 80% своего времени  на  поиск и подбор своей квартиры</p>
-            <button>Подобрать квартиру</button>
+            <div class="dots-vertical-container">
+              <button></button>
+              <button></button>
+              <button></button>
+              <button></button>
+            </div>
+            <div class="nav-vertical-container"></div>
+            <div class="preview">
+              <h1>КОМФОРТНАЯ СРЕДА ДЛЯ ЖИЗНИ</h1>
+              <p>
+                Cэкономьте с нами 80% своего времени на поиск и подбор своей
+                квартиры
+              </p>
+              <button>Подобрать квартиру</button>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- container one -->
-    <section class="container-two center">
-      <h2 class="container-two__header">ПОКУПКА В НОВОСТРОЙКЕ</h2>
-      <div class="container-two__advantages">
-        <div class="container-two__card">
-          <img src="./img/svg/cont2-1.svg" alt="ico" class="container-two__icon">
-          <h4 class="container-two__heading">Комфортные условия для жизни</h4>
-          <p class="container-two__text">Современное утепление новых
-            домов, удобная планировка,
-           наличие автономного
-           отопления
-          </p>
-        </div>
-        <div class="container-two__card">
-          <img src="./img/svg/cont2-2.svg" alt="ico" class="container-two__icon">
-          <h4 class="container-two__heading">Выгодные
-            условия ипотеки</h4>
-          <p class="container-two__text">Любая семья может позволить
-            себе жилье в новостройке 
-            со средним доходом
-            комфорт класс
+      </section>
+      <!-- container one -->
+      <section class="container-two center">
+        <h2 class="container-two__header">ПОКУПКА В НОВОСТРОЙКЕ</h2>
+        <div class="container-two__advantages">
+          <div class="container-two__card">
+            <img
+              src="./img/svg/cont2-1.svg"
+              alt="ico"
+              class="container-two__icon"
+            />
+            <h4 class="container-two__heading">Комфортные условия для жизни</h4>
+            <p class="container-two__text">
+              Современное утепление новых домов, удобная планировка, наличие
+              автономного отопления
             </p>
+          </div>
+          <div class="container-two__card">
+            <img
+              src="./img/svg/cont2-2.svg"
+              alt="ico"
+              class="container-two__icon"
+            />
+            <h4 class="container-two__heading">Выгодные условия ипотеки</h4>
+            <p class="container-two__text">
+              Любая семья может позволить себе жилье в новостройке со средним
+              доходом комфорт класс
+            </p>
+          </div>
+          <div class="container-two__card">
+            <img
+              src="./img/svg/cont2-3.svg"
+              alt="ico"
+              class="container-two__icon"
+            />
+            <h4 class="container-two__heading">Гарантия законности сделки</h4>
+            <p class="container-two__text">
+              Клиент может быть уверен, что за его квартирой нет череды
+              нежелательных сделок
+            </p>
+          </div>
+          <div class="container-two__card">
+            <img
+              src="./img/svg/cont2-4.svg"
+              alt="ico"
+              class="container-two__icon"
+            />
+            <h4 class="container-two__heading">
+              Свободная планировка квартиры
+            </h4>
+            <p class="container-two__text">
+              Семья сама выбирает как будет выглядеть каждая комната в новой
+              квартире
+            </p>
+          </div>
         </div>
-        <div class="container-two__card">
-          <img src="./img/svg/cont2-3.svg" alt="ico" class="container-two__icon">
-          <h4 class="container-two__heading">Гарантия
-            законности сделки</h4>
-          <p class="container-two__text">Клиент  может быть уверен,
-            что за его квартирой нет  
-            череды нежелательных
-           сделок
-           </p>
-        </div>
-        <div class="container-two__card">
-          <img src="./img/svg/cont2-4.svg" alt="ico" class="container-two__icon">
-          <h4 class="container-two__heading">Свободная планировка квартиры</h4>
-          <p class="container-two__text">Семья сама выбирает как будет выглядеть каждая комната в новой квартире</p>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- CONTAINER_TWO -->
+      <!-- CONTAINER_TWO -->
 
-    <section class="container-three">
-      <h2 class="container-three__header">ГАЛЕРЕЯ КОМПЛЕКСА</h2>
-      <div class="container-three__slider swiper-container center">
-        <div class="swiper-wrapper">
-          <div class="img swiper-slide"><img src="./img/png/cont3-build1.png" alt="build"></div>
-          <div class="img swiper-slide"><img src="./img/png/cont3-build2.png" alt="build"></div>
-          <div class="img swiper-slide"><img src="./img/png/cont3-build3.png" alt="build"></div>
-          <div class="img swiper-slide"><img src="./img/png/cont3-build2.png" alt="build"></div>
-          <div class="img swiper-slide"><img src="./img/png/cont3-build1.png" alt="build"></div>
-          <div class="img swiper-slide"><img src="./img/png/cont3-build3.png" alt="build"></div>
-          <div class="img swiper-slide"><img src="./img/png/cont3-build2.png" alt="build"></div>
-          <div class="img swiper-slide"><img src="./img/png/cont3-build3.png" alt="build"></div>
-        </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-scrollbar" style="opacity: 1;"></div>
-      </div>
-      <button>Узнать больше</button>
-    </section>
-
-    <!-- CONTAINER-three -->
-
-    <section class="container-four center">
-      <h2 class="container-four__header">КАКОЙ ВЫ ВИДИТЕ КВАРТИРУ СВОЕЙ МЕЧТЫ?</h2>
-      <div class="container-four__cards">
-        <div class="container-four__card">
-          <img src="./img/png/cont4-img1.png" alt="build" class="container-four__img">
-          <p class="container-four__text">Выберите квартиру своеймечты в новом <span class="container-four__red">ЖК АМУРСКАЯ</span>,<br>где традиции стороительства объединились с технологиями.</p>
-        </div>
-        <div class="container-four__card">
-          <img src="./img/png/cont4-img2.png" alt="build" class="container-four__img">
-          <p class="container-four__text">Большие <span class="container-four__red">панорамные окна</span> от пола до потолка наполняют<br>квартиру светом и открывают прекрасный вид.</p>
-        </div>
-        <div class="container-four__card">
-          <img src="./img/png/cont4-ig3.png" alt="build" class="container-four__img">
-          <p class="container-four__text"><span class="container-four__red">В просторных светлых</span>  квартирах  ЖК Амурская легко<br>дышится и можно поставить любую мебель.</p>
-        </div>
-        <div class="container-four__card">
-          <img src="./img/png/cont4-img4.png" alt="build" class="container-four__img">
-          <p class="container-four__text">В комплексе у вас появляется больше <span class="container-four__red">свободного времени</span><br>для ваших увлечений отдыха и общения с близкими</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTAINER FOUR -->
-    <section class="container-five" id="plan">
-      <h2 class="container-five__header">ПОДОБРАТЬ ПО ПАРАМЕТРАМ</h2>
-      <div class="container-five__calculaitor center">
-        <div class="container-five__block-one">
-          <div class="container-five__form">
-            <form class="container-five__rooms">
-              <p class="container-five__heading-text">Количество комнат</p>
-              <input class="container-five__rooms_radio" id="radio-one" name="radio" type="radio" >
-              <label for="radio-one">1</label>
-              <input class="container-five__rooms_radio" id="radio-two" name="radio" type="radio" checked>
-              <label for="radio-two">2</label>
-              <input class="container-five__rooms_radio" id="radio-three" name="radio" type="radio" >
-              <label for="radio-three">2e</label>
-              <input class="container-five__rooms_radio" id="radio-four" name="radio" type="radio">
-              <label for="radio-four">3</label>
-              <input class="container-five__rooms_radio" id="radio-five" name="radio" type="radio">
-              <label for="radio-five">3e</label>
-            </form>
-            <form class="container-five__fix">
-              <div class="container-five__with-fix">
-                <p class="container-five__fix-text">C отделкой</p>
-                <input class="container-five__rooms_radio" id="radio-fix" name="radio" type="radio" checked>
-              <label for="radio-fix"></label>
-              </div>
-              <div class="container-five__without-fix">
-                <p class="container-five__fix-text">Без отделкой</p>
-                <input class="container-five__rooms_radio" id="radio-witoutfix" name="radio" type="radio">
-              <label for="radio-witoutfix"></label>
-              </div>
-            </form>
-            <div class="container-five__other">
-              <p class="container-five__fix-text">Дополнительные параметры</p>
-              <button><img src="./img/svg/cont5-arrow.svg" alt="arrow"></button>
+      <section class="container-three">
+        <h2 class="container-three__header">ГАЛЕРЕЯ КОМПЛЕКСА</h2>
+        <div class="container-three__slider swiper-container center">
+          <div class="swiper-wrapper">
+            <div class="img swiper-slide">
+              <img src="./img/png/cont3-build1.png" alt="build" />
             </div>
-            <form class="container-five__deadline">
-              <p class="container-five__deadline-text">Срок сдачи</p>
-              <div class="container-five__deadline-form">
-                <div class="container-five__date">
-                  <p class="conyainer-five__date-text">IV кв 2020</p>
-                  <input class="container-five__rooms_radio" id="radio-before" name="radio" type="radio" checked>
-                <label for="radio-before"></label>
-                </div>
-                <div class="container-five__date">
-                  <p class="conyainer-five__date-text">I кв 2021</p>
-                  <input class="container-five__rooms_radio" id="radio-after" name="radio" type="radio">
-                <label for="radio-after"></label>
-                </div>
-              </div>
-            </form>
-            <div class="container-five__reset">
-              <p class="container-five__reset-text">Cбросить фильтр</p>
-              <button><img src="./img/svg/cont3-reset.svg" alt="reset"></button>
+            <div class="img swiper-slide">
+              <img src="./img/png/cont3-build2.png" alt="build" />
+            </div>
+            <div class="img swiper-slide">
+              <img src="./img/png/cont3-build3.png" alt="build" />
+            </div>
+            <div class="img swiper-slide">
+              <img src="./img/png/cont3-build2.png" alt="build" />
+            </div>
+            <div class="img swiper-slide">
+              <img src="./img/png/cont3-build1.png" alt="build" />
+            </div>
+            <div class="img swiper-slide">
+              <img src="./img/png/cont3-build3.png" alt="build" />
+            </div>
+            <div class="img swiper-slide">
+              <img src="./img/png/cont3-build2.png" alt="build" />
+            </div>
+            <div class="img swiper-slide">
+              <img src="./img/png/cont3-build3.png" alt="build" />
             </div>
           </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-scrollbar" style="opacity: 1"></div>
         </div>
-        <div class="container-five__block-two">
-          <div class="container-five__area">
-            <p class="container-five__area-pharaph">Полощадь</p>
-            <input type="range" min="36" max="110" class="container-five__area-range" id="container-five__area-range">
-            <div class="sub">
-              <p class="start">36 м<sup>2</sup></p>
-              <p class="value"><span id="area"></span> м<sup>2</sup></p>
-              <p class="end">110 м<sup>2</sup></p>
-            </div>
-          </div>
-          <div class="container-five__level">
-            <p class="container-five__area-pharaph">Этаж</p>
-            <input type="range" min="1" max="11" class="container-five__level-range" id="container-five__level-range">
-            <div class="sub">
-              <p class="start">1</p>
-              <p class="value"><span id="level"></span></p>
-              <p class="end">11</p>
-            </div>
-          </div>
-          <div class="container-five__cost">
-            <p class="container-five__area-pharaph">Цена</p>
-            <input type="range" class="container-five__cost-range" id="container-five__cost-range" min="3782299" max="12032265">
-            <div class="sub">
-              <p class="start">3 782 299</p>
-              <p class="value"><span id="cost"></span></p>
-              <p class="end">12 032 265</p>
-            </div>
-          </div>
-          <div class="container-five__summ">
-            <button class="container-five__summ-but">Итого</button>
-            <span>10 856 300 руб</span>
-          </div>
-        </div>
-        <div class="container-five__block-three">
-          <p class="container-five__build-text">ЖК Амурская</p>
-          <img src="./img/png/cot5-img1.png" alt="build" class="container-five__build-img">
-         </div>
-      </div> 
-      <button class="container-five__submit">Узнать больше</button>
-    </section>
+        <button>Узнать больше</button>
+      </section>
 
-    <!-- CONTAINER-FIVE -->
+      <!-- CONTAINER-three -->
 
-    <section class="container-six">
-      <div class="container-six__statistics center">
-        <h3 class="container-six__header">УСПЕШНО РЕАЛИЗОВАНО БОЛЕЕ 50% КВАРТИР</h3>
-        <div class="container-six__stat">
-          <p class="container-six__more-text">В КОРПУСЕ 4 ОСТАЛОСЬ 35% КВАРТИР</p>
-          <p class="container-six__more-text">В КОРПУСЕ 2 ОСТАЛОСЬ 15% КВАРТИР</p>
-          <p class="container-six__more-text">В КОРПУСЕ 8 ОСТАЛОСЬ 25% КВАРТИР</p>
-          <p class="container-six__more-text">В КОРПУСЕ 6 ОСТАЛОСЬ 45% КВАРТИР</p>
-        </div>
-      </div>
-    </section>
-    
-
-
-    <!-- CONTAINER-SIX -->
-
-    <section class="container-seven">
-      <img src="./img/png/cont7-img.png" alt="city" class="container-seven__img">
-      <div class="container-seven__advantages">
-        <h2 class="container-seven__header">ПОЧЕМУ СТОИТ РАБОТАТЬ С НАМИ</h2>
-        <div class="container-seven__advantage">
-          <img src="./img/svg/cont7-ico.svg" alt="ico" class="container-seven__icon">
-          <div class="container-seven__info">
-            <h3 class="container-seven__advantage_header">ЮРИДИЧЕСКАЯ БЕЗОПАСТНОСТЬ</h3>
-            <p class="container-seven__text">Мы работаем официально, заключаем договора и все сделки прозрачны для Вас</p>
-          </div>
-        </div>
-        <div class="container-seven__advantage">
-          <img src="./img/svg/cont7-ico2.svg" alt="ico" class="container-seven__icon">
-          <div class="container-seven__info">
-            <h3 class="container-seven__advantage_header">АКТУАЛЬНЫЕ ОБЪЕКТЫ</h3>
-            <p class="container-seven__text">У нас представлены только самые актуальные и проверенные объекты от собственников</p>
-          </div>
-        </div>
-        <div class="container-seven__advantage">
-          <img src="./img/svg/cont7-ico3.svg" alt="ico" class="container-seven__icon">
-          <div class="container-seven__info">
-            <h3 class="container-seven__advantage_header">НАШ ПРОФЕССИОНАЛИЗМ</h3>
-            <p class="container-seven__text">У нас большой опыт работы мы знаем все о недвижимости и подберем для васлучший вариант</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTAINER-SEVEN -->
-
-    <section class="container-eight" id="interiers">
-      <div class="container-eight__block-one center">
-        <h2 class="container-four__header">ИНТЕРЬЕРНЫЕ РЕШЕНИЯ</h2>
+      <section class="container-four center">
+        <h2 class="container-four__header">
+          КАКОЙ ВЫ ВИДИТЕ КВАРТИРУ СВОЕЙ МЕЧТЫ?
+        </h2>
         <div class="container-four__cards">
           <div class="container-four__card">
-            <img src="./img/png/cont8-b1-img1.png" alt="build" class="container-four__img">
-            <p class="container-four__text">Мы возьмем на себе все заботы по<br>обустройству вашей <span>новой</span> квартиры</p>
+            <img
+              src="./img/png/cont4-img1.png"
+              alt="build"
+              class="container-four__img"
+            />
+            <p class="container-four__text">
+              Выберите квартиру своеймечты в новом
+              <span class="container-four__red">ЖК АМУРСКАЯ</span>,<br />где
+              традиции стороительства объединились с технологиями.
+            </p>
           </div>
           <div class="container-four__card">
-            <img src="./img/png/cont8-b1-img2.png" alt="build" class="container-four__img">
-            <p class="container-four__text">Мы готовы предложить вам <span>несколько</span><br> вариантов дизайн - проектов квартир  </p>
-          </div> 
+            <img
+              src="./img/png/cont4-img2.png"
+              alt="build"
+              class="container-four__img"
+            />
+            <p class="container-four__text">
+              Большие
+              <span class="container-four__red">панорамные окна</span> от пола
+              до потолка наполняют<br />квартиру светом и открывают прекрасный
+              вид.
+            </p>
+          </div>
+          <div class="container-four__card">
+            <img
+              src="./img/png/cont4-ig3.png"
+              alt="build"
+              class="container-four__img"
+            />
+            <p class="container-four__text">
+              <span class="container-four__red">В просторных светлых</span>
+              квартирах ЖК Амурская легко<br />дышится и можно поставить любую
+              мебель.
+            </p>
+          </div>
+          <div class="container-four__card">
+            <img
+              src="./img/png/cont4-img4.png"
+              alt="build"
+              class="container-four__img"
+            />
+            <p class="container-four__text">
+              В комплексе у вас появляется больше
+              <span class="container-four__red">свободного времени</span
+              ><br />для ваших увлечений отдыха и общения с близкими
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="container-eight__block-two">
-        <div class="center">
-          <div class="container-eight__graffiti">
-            <h4>СТИЛЬ ГРАФФИТИ</h4>
-            <p>Так может выглядеть Ваша<br> квартира в ЖК Амурская</p>
-          </div> 
-          <div class="bl1-img1"><img src="./img/png/bl1/1.png" alt=""></div>
-          <div class="bl1-img2"><img src="./img/png/bl1/2.png" alt="" ></div>
-          <div class="bl1-img3"><img src="./img/png/bl1/3.png" alt=""></div>
-          <div class="bl1-img4"><img src="./img/png/bl1/4.png" alt=""></div>
-          <div class="bl1-img5"><img src="./img/png/bl1/5.png" alt=""></div>
-          <div class="bl1-img6"><img src="./img/png/bl1/6.png" alt=""></div>
-          <div class="bl1-img7"><img src="./img/png/bl1/7.png" alt=""></div>
-          <div class="bl1-img8"><img src="./img/png/bl1/8.png" alt=""></div>
-          <div class="bl1-img9"><img src="./img/png/bl1/9.png" alt=""></div>
-          <div class="button"><button>Узнать больше</button></div>
-        </div>
-      </div>
-      <div class="container-eight__block-three center">
-         
-      </div>
-      <div class="container-eight__block-four">
-        <div class="center">
-          <div class="container-eight__graffiti">
-            <h4>СТИЛЬ ШАМПАНЬ</h4>
-            <p>Так может выглядеть Ваша<br> квартира в ЖК Амурская</p>
-          </div> 
-          <div class="bl1-img1"><img src="./img/png/bl2/1.png" alt=""></div>
-          <div class="bl1-img2"><img src="./img/png/bl2/2.png" alt="" ></div>
-          <div class="bl1-img3"><img src="./img/png/bl2/3.png" alt=""></div>
-          <div class="bl1-img4"><img src="./img/png/bl2/4.png" alt=""></div>
-          <div class="bl1-img5"><img src="./img/png/bl2/5.png" alt=""></div>
-          <div class="bl1-img6"><img src="./img/png/bl2/6.png" alt=""></div>
-          <div class="bl1-img7"><img src="./img/png/bl2/7.png" alt=""></div>
-          <div class="bl1-img8"><img src="./img/png/bl2/8.png" alt=""></div>
-          <div class="bl1-img9"><img src="./img/png/bl2/9.png" alt=""></div>
-          <div class="button"><button>Узнать больше</button></div>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- CONTAINER-EIGHT -->
-
-    <section class="container-nine center">
-      <h2 class="container-nine__header">В ШАГОВОЙ ДОСТУПНОСТИ</h2>
-      <div class="container-nine__cards">
-        <div class="container-nine__card">
-          <div class="container-nine__img img1"></div>
-          <h5 class="container-nine__way">7 минут</h5>
-          <p class="container-nine__woutoway">Пешком до станции метро 
-            “Черкизовская”, “Локомотив” </p>
-        </div>
-        <div class="container-nine__card">
-          <div class="container-nine__img img2"></div>
-          <h5 class="container-nine__way">30 минут</h5>
-          <p class="container-nine__woutoway">На транспорте, и машине 
-            до центра Москвы</p>
-        </div>
-        <div class="container-nine__card">
-          <div class="container-nine__img img3"></div>
-          <h5 class="container-nine__way">15 минут</h5>
-          <p class="container-nine__woutoway">На велосипеде до парков  
-            Сокольники и другие</p>
-        </div>
-        <div class="container-nine__card">
-          <div class="container-nine__img img4"></div>
-          <h5 class="container-nine__way">10 минут</h5>
-          <p class="container-nine__woutoway">Пешком до живописного 
-            парка “Сиреневый Сад”</p>
-        </div>
-      </div>
-    </section>
-    
-    <!-- CONTAINER-NINE -->
-
-    <section class="container-ten center" id="ways">
-      <h2 class="container-ten__header">СПОСОБЫ ОПЛАТЫ</h2>
-      <div class="container-ten__info">
-        <img src="./img/png/cont10-img.png" alt="img">
-        <div class="container-ten__collapse">
-          <div class="accordion" id="accordionExample">
-            <div class="card">
-              <div class="card-header" id="headingOne">
-                <h5 class="mb-0">
-                  <button class="btn btn-link container-ten__coll collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                    <span>Рассрочкa</span>
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+      <!-- CONTAINER FOUR -->
+      <section class="container-five" id="plan">
+        <h2 class="container-five__header">ПОДОБРАТЬ ПО ПАРАМЕТРАМ</h2>
+        <div class="container-five__calculaitor center">
+          <div class="container-five__block-one">
+            <div class="container-five__form">
+              <form class="container-five__rooms">
+                <p class="container-five__heading-text">Количество комнат</p>
+                <input
+                  class="container-five__rooms_radio"
+                  id="radio-one"
+                  name="radio"
+                  type="radio"
+                />
+                <label for="radio-one">1</label>
+                <input
+                  class="container-five__rooms_radio"
+                  id="radio-two"
+                  name="radio"
+                  type="radio"
+                  checked
+                />
+                <label for="radio-two">2</label>
+                <input
+                  class="container-five__rooms_radio"
+                  id="radio-three"
+                  name="radio"
+                  type="radio"
+                />
+                <label for="radio-three">2e</label>
+                <input
+                  class="container-five__rooms_radio"
+                  id="radio-four"
+                  name="radio"
+                  type="radio"
+                />
+                <label for="radio-four">3</label>
+                <input
+                  class="container-five__rooms_radio"
+                  id="radio-five"
+                  name="radio"
+                  type="radio"
+                />
+                <label for="radio-five">3e</label>
+              </form>
+              <form class="container-five__fix">
+                <div class="container-five__with-fix">
+                  <p class="container-five__fix-text">C отделкой</p>
+                  <input
+                    class="container-five__rooms_radio"
+                    id="radio-fix"
+                    name="radio"
+                    type="radio"
+                    checked
+                  />
+                  <label for="radio-fix"></label>
                 </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingTwo">
-                <h5 class="mb-0">
-                  <button class="btn btn-link container-ten__coll collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    <span>Ипотека</span>
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                <div class="container-five__without-fix">
+                  <p class="container-five__fix-text">Без отделкой</p>
+                  <input
+                    class="container-five__rooms_radio"
+                    id="radio-witoutfix"
+                    name="radio"
+                    type="radio"
+                  />
+                  <label for="radio-witoutfix"></label>
                 </div>
+              </form>
+              <div class="container-five__other">
+                <p class="container-five__fix-text">Дополнительные параметры</p>
+                <button>
+                  <img src="./img/svg/cont5-arrow.svg" alt="arrow" />
+                </button>
               </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingThree">
-                <h5 class="mb-0">
-                  <button class="btn btn-link container-ten__coll collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    <span>Материнский капитал </span>
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+              <form class="container-five__deadline">
+                <p class="container-five__deadline-text">Срок сдачи</p>
+                <div class="container-five__deadline-form">
+                  <div class="container-five__date">
+                    <p class="conyainer-five__date-text">IV кв 2020</p>
+                    <input
+                      class="container-five__rooms_radio"
+                      id="radio-before"
+                      name="radio"
+                      type="radio"
+                      checked
+                    />
+                    <label for="radio-before"></label>
+                  </div>
+                  <div class="container-five__date">
+                    <p class="conyainer-five__date-text">I кв 2021</p>
+                    <input
+                      class="container-five__rooms_radio"
+                      id="radio-after"
+                      name="radio"
+                      type="radio"
+                    />
+                    <label for="radio-after"></label>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingFour">
-                <h5 class="mb-0">
-                  <button class="btn btn-link container-ten__coll collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    <span>Военная ипотека</span>
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingFive">
-                <h5 class="mb-0">
-                  <button class="btn btn-link container-ten__coll collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                    <span>Ипотека на паркинг</span>
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingSix">
-                <h5 class="mb-0">
-                  <button class="btn btn-link container-ten__coll collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                    <span>Ипотека для бизнеса</span>
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                </div>
+              </form>
+              <div class="container-five__reset">
+                <p class="container-five__reset-text">Cбросить фильтр</p>
+                <button>
+                  <img src="./img/svg/cont3-reset.svg" alt="reset" />
+                </button>
               </div>
             </div>
           </div>
-          
-          <button class="container-ten__more">ПОДРОБНЕЕ</button>
+          <div class="container-five__block-two">
+            <div class="container-five__area">
+              <p class="container-five__area-pharaph">Полощадь</p>
+              <input
+                type="range"
+                min="36"
+                max="110"
+                class="container-five__area-range"
+                id="container-five__area-range"
+              />
+              <div class="sub">
+                <p class="start">36 м<sup>2</sup></p>
+                <p class="value"><span id="area"></span> м<sup>2</sup></p>
+                <p class="end">110 м<sup>2</sup></p>
+              </div>
+            </div>
+            <div class="container-five__level">
+              <p class="container-five__area-pharaph">Этаж</p>
+              <input
+                type="range"
+                min="1"
+                max="11"
+                class="container-five__level-range"
+                id="container-five__level-range"
+              />
+              <div class="sub">
+                <p class="start">1</p>
+                <p class="value"><span id="level"></span></p>
+                <p class="end">11</p>
+              </div>
+            </div>
+            <div class="container-five__cost">
+              <p class="container-five__area-pharaph">Цена</p>
+              <input
+                type="range"
+                class="container-five__cost-range"
+                id="container-five__cost-range"
+                min="3782299"
+                max="12032265"
+              />
+              <div class="sub">
+                <p class="start">3 782 299</p>
+                <p class="value"><span id="cost"></span></p>
+                <p class="end">12 032 265</p>
+              </div>
+            </div>
+            <div class="container-five__summ">
+              <button class="container-five__summ-but">Итого</button>
+              <span>10 856 300 руб</span>
+            </div>
+          </div>
+          <div class="container-five__block-three">
+            <p class="container-five__build-text">ЖК Амурская</p>
+            <img
+              src="./img/png/cot5-img1.png"
+              alt="build"
+              class="container-five__build-img"
+            />
+          </div>
         </div>
-      </div>
-    </section>
+        <button class="container-five__submit">Узнать больше</button>
+      </section>
 
-    <!-- CONTAINER-TEN -->
+      <!-- CONTAINER-FIVE -->
 
-    <section class="container-sixteen">
-      <div class="container-sixteen__form">
-        <h2 class="container-sixteen__header-form">ОСТАВЛИСЬ ВОПРОСЫ ?</h2>
-        <p class="container-sixteen__subheader-form">Звоните или заказывайте обратный звонок</p>
-        <input type="text" placeholder="Имя">
-        <input type="tel" placeholder="Телефон">
-        <button>Заказать звонок</button>
-      </div>
-      <div class="container-sixteen__contacts">
-        <h2 class="container-sixteen__header">СВЯЗАТЬСЯ С НАМИ</h2>
-        <div class="container-sixteen__advantages">
-          <div class="container-sixteen__advantage">
-            <img src="./img/svg/cont13-ico1.svg" alt="ico" class="container-sixteen__icon">
-            <div class="container-sixteen__info">
-              <h4 class="container-sixteen__advantage_header">Отдел продаж</h4>
-              <p class="container-sixteen__text">+7 (495) 126 26 26</p>
+      <section class="container-six">
+        <div class="container-six__statistics center">
+          <h3 class="container-six__header">
+            УСПЕШНО РЕАЛИЗОВАНО БОЛЕЕ 50% КВАРТИР
+          </h3>
+          <div class="container-six__stat">
+            <p class="container-six__more-text">
+              В КОРПУСЕ 4 ОСТАЛОСЬ 35% КВАРТИР
+            </p>
+            <p class="container-six__more-text">
+              В КОРПУСЕ 2 ОСТАЛОСЬ 15% КВАРТИР
+            </p>
+            <p class="container-six__more-text">
+              В КОРПУСЕ 8 ОСТАЛОСЬ 25% КВАРТИР
+            </p>
+            <p class="container-six__more-text">
+              В КОРПУСЕ 6 ОСТАЛОСЬ 45% КВАРТИР
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTAINER-SIX -->
+
+      <section class="container-seven">
+        <img
+          src="./img/png/cont7-img.png"
+          alt="city"
+          class="container-seven__img"
+        />
+        <div class="container-seven__advantages">
+          <h2 class="container-seven__header">ПОЧЕМУ СТОИТ РАБОТАТЬ С НАМИ</h2>
+          <div class="container-seven__advantage">
+            <img
+              src="./img/svg/cont7-ico.svg"
+              alt="ico"
+              class="container-seven__icon"
+            />
+            <div class="container-seven__info">
+              <h3 class="container-seven__advantage_header">
+                ЮРИДИЧЕСКАЯ БЕЗОПАСТНОСТЬ
+              </h3>
+              <p class="container-seven__text">
+                Мы работаем официально, заключаем договора и все сделки
+                прозрачны для Вас
+              </p>
             </div>
           </div>
-          <div class="container-sixteen__advantage">
-            <img src="./img/svg/cont13-ico1.svg" alt="ico" class="container-sixteen__icon">
-            <div class="container-sixteen__info">
-              <h4 class="container-sixteen__advantage_header">Постпродажный  отдел</h4>
-              <p class="container-sixteen__text">+7 (495) 134 11 507</p>
+          <div class="container-seven__advantage">
+            <img
+              src="./img/svg/cont7-ico2.svg"
+              alt="ico"
+              class="container-seven__icon"
+            />
+            <div class="container-seven__info">
+              <h3 class="container-seven__advantage_header">
+                АКТУАЛЬНЫЕ ОБЪЕКТЫ
+              </h3>
+              <p class="container-seven__text">
+                У нас представлены только самые актуальные и проверенные объекты
+                от собственников
+              </p>
             </div>
           </div>
-          <div class="container-sixteen__advantage">
-            <img src="./img/svg/cot16-ico2.svg" alt="ico" class="container-sixteen__icon">
-            <div class="container-sixteen__info">
-              <h4 class="container-sixteen__advantage_header">Офис продаж жк амурская</h4>
-              <p class="container-sixteen__text">Москва ул. Амурская, вл. 3</p>
-            </div>
-          </div>
-          <div class="container-sixteen__advantage">
-            <img src="./img/svg/cont16-ico3.svg" alt="ico" class="container-sixteen__icon">
-            <div class="container-sixteen__info">
-              <h4 class="container-sixteen__advantage_header">Режим работы</h4>
-              <p class="container-sixteen__text">Ежедневно 09:00-21:00</p>
-            </div>
-          </div>
-          <div class="container-sixteen__advantage">
-            <img src="./img/svg/cont16-ico4.svg" alt="ico" class="container-sixteen__icon">
-            <div class="container-sixteen__info">
-              <h4 class="container-sixteen__advantage_header">Почта для связи</h4>
-              <p class="container-sixteen__text">info@levelgroup.ru</p>
+          <div class="container-seven__advantage">
+            <img
+              src="./img/svg/cont7-ico3.svg"
+              alt="ico"
+              class="container-seven__icon"
+            />
+            <div class="container-seven__info">
+              <h3 class="container-seven__advantage_header">
+                НАШ ПРОФЕССИОНАЛИЗМ
+              </h3>
+              <p class="container-seven__text">
+                У нас большой опыт работы мы знаем все о недвижимости и подберем
+                для васлучший вариант
+              </p>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- CONTAINER-SIXTEEEN -->
+      <!-- CONTAINER-SEVEN -->
 
-    <section class="container-seventeen center">
-      <h2 class="container-seventeen__header">КОММЕРЧЕСКИЕ ПОМЕЩЕНИЯ LEVEL АМУРСКАЯ</h2>
-      <div class="container-seventeen__content">
-        <img src="./img/png/cont17-img1.png" alt="girl">
-        <div class="list">
-          <ul>
-            <li>Пешеходный трафик 15 тыс. жителей</li>
-            <li>Широкий выбор метражей помещений</li>
-            <li>Витринное остекление более 3-х м в высоту</li>
-            <li>Высокие потолки до 6,55м</li>
-            <li>Возможность размещения вывески</li>
-            <li>Свободная планировка, возможность зонирования</li>
-          </ul>
-          <button class="container-seventeen__button">СМОТРЕТЬ ПЛАНИРОВКИ</button>
+      <section class="container-eight" id="interiers">
+        <div class="container-eight__block-one center">
+          <h2 class="container-four__header">ИНТЕРЬЕРНЫЕ РЕШЕНИЯ</h2>
+          <div class="container-four__cards">
+            <div class="container-four__card">
+              <img
+                src="./img/png/cont8-b1-img1.png"
+                alt="build"
+                class="container-four__img"
+              />
+              <p class="container-four__text">
+                Мы возьмем на себе все заботы по<br />обустройству вашей
+                <span>новой</span> квартиры
+              </p>
+            </div>
+            <div class="container-four__card">
+              <img
+                src="./img/png/cont8-b1-img2.png"
+                alt="build"
+                class="container-four__img"
+              />
+              <p class="container-four__text">
+                Мы готовы предложить вам <span>несколько</span><br />
+                вариантов дизайн - проектов квартир
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+        <div class="container-eight__block-two">
+          <div class="center">
+            <div class="container-eight__graffiti">
+              <h4>СТИЛЬ ГРАФФИТИ</h4>
+              <p>
+                Так может выглядеть Ваша<br />
+                квартира в ЖК Амурская
+              </p>
+            </div>
+            <div class="bl1-img1"><img src="./img/png/bl1/1.png" alt="" /></div>
+            <div class="bl1-img2"><img src="./img/png/bl1/2.png" alt="" /></div>
+            <div class="bl1-img3"><img src="./img/png/bl1/3.png" alt="" /></div>
+            <div class="bl1-img4"><img src="./img/png/bl1/4.png" alt="" /></div>
+            <div class="bl1-img5"><img src="./img/png/bl1/5.png" alt="" /></div>
+            <div class="bl1-img6"><img src="./img/png/bl1/6.png" alt="" /></div>
+            <div class="bl1-img7"><img src="./img/png/bl1/7.png" alt="" /></div>
+            <div class="bl1-img8"><img src="./img/png/bl1/8.png" alt="" /></div>
+            <div class="bl1-img9"><img src="./img/png/bl1/9.png" alt="" /></div>
+            <div class="button"><button>Узнать больше</button></div>
+          </div>
+        </div>
+        <div class="container-eight__block-three center"></div>
+        <div class="container-eight__block-four">
+          <div class="center">
+            <div class="container-eight__graffiti">
+              <h4>СТИЛЬ ШАМПАНЬ</h4>
+              <p>
+                Так может выглядеть Ваша<br />
+                квартира в ЖК Амурская
+              </p>
+            </div>
+            <div class="bl1-img1"><img src="./img/png/bl2/1.png" alt="" /></div>
+            <div class="bl1-img2"><img src="./img/png/bl2/2.png" alt="" /></div>
+            <div class="bl1-img3"><img src="./img/png/bl2/3.png" alt="" /></div>
+            <div class="bl1-img4"><img src="./img/png/bl2/4.png" alt="" /></div>
+            <div class="bl1-img5"><img src="./img/png/bl2/5.png" alt="" /></div>
+            <div class="bl1-img6"><img src="./img/png/bl2/6.png" alt="" /></div>
+            <div class="bl1-img7"><img src="./img/png/bl2/7.png" alt="" /></div>
+            <div class="bl1-img8"><img src="./img/png/bl2/8.png" alt="" /></div>
+            <div class="bl1-img9"><img src="./img/png/bl2/9.png" alt="" /></div>
+            <div class="button"><button>Узнать больше</button></div>
+          </div>
+        </div>
+      </section>
 
-    <!-- CONTAINER-SEVENTEEN -->
+      <!-- CONTAINER-EIGHT -->
 
-    <section class="container-eighteen">
-        <div class="map" id="YMapsID" style="width:100%;height:750px"></div>
+      <section class="container-nine center">
+        <h2 class="container-nine__header">В ШАГОВОЙ ДОСТУПНОСТИ</h2>
+        <div class="container-nine__cards">
+          <div class="container-nine__card">
+            <div class="container-nine__img img1"></div>
+            <h5 class="container-nine__way">7 минут</h5>
+            <p class="container-nine__woutoway">
+              Пешком до станции метро “Черкизовская”, “Локомотив”
+            </p>
+          </div>
+          <div class="container-nine__card">
+            <div class="container-nine__img img2"></div>
+            <h5 class="container-nine__way">30 минут</h5>
+            <p class="container-nine__woutoway">
+              На транспорте, и машине до центра Москвы
+            </p>
+          </div>
+          <div class="container-nine__card">
+            <div class="container-nine__img img3"></div>
+            <h5 class="container-nine__way">15 минут</h5>
+            <p class="container-nine__woutoway">
+              На велосипеде до парков Сокольники и другие
+            </p>
+          </div>
+          <div class="container-nine__card">
+            <div class="container-nine__img img4"></div>
+            <h5 class="container-nine__way">10 минут</h5>
+            <p class="container-nine__woutoway">
+              Пешком до живописного парка “Сиреневый Сад”
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTAINER-NINE -->
+
+      <section class="container-ten center" id="ways">
+        <h2 class="container-ten__header">СПОСОБЫ ОПЛАТЫ</h2>
+        <div class="container-ten__info">
+          <img src="./img/png/cont10-img.png" alt="img" />
+          <div class="container-ten__collapse">
+            <div class="accordion" id="accordionExample">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link container-ten__coll collapsed"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseOne"
+                      aria-expanded="false"
+                      aria-controls="collapseOne"
+                    >
+                      <span>Рассрочкa</span>
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapseOne"
+                  class="collapse"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life
+                    accusamus terry richardson ad squid.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link container-ten__coll collapsed"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      <span>Ипотека</span>
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapseTwo"
+                  class="collapse"
+                  aria-labelledby="headingTwo"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life
+                    accusamus terry richardson ad squid.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link container-ten__coll collapsed"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      <span>Материнский капитал </span>
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapseThree"
+                  class="collapse"
+                  aria-labelledby="headingThree"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life
+                    accusamus terry richardson ad squid.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFour">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link container-ten__coll collapsed"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseFour"
+                      aria-expanded="false"
+                      aria-controls="collapseFour"
+                    >
+                      <span>Военная ипотека</span>
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapseFour"
+                  class="collapse"
+                  aria-labelledby="headingFour"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life
+                    accusamus terry richardson ad squid.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFive">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link container-ten__coll collapsed"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseFive"
+                      aria-expanded="false"
+                      aria-controls="collapseFive"
+                    >
+                      <span>Ипотека на паркинг</span>
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapseFive"
+                  class="collapse"
+                  aria-labelledby="headingFive"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life
+                    accusamus terry richardson ad squid.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingSix">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link container-ten__coll collapsed"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseSix"
+                      aria-expanded="false"
+                      aria-controls="collapseSix"
+                    >
+                      <span>Ипотека для бизнеса</span>
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapseSix"
+                  class="collapse"
+                  aria-labelledby="headingSix"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life
+                    accusamus terry richardson ad squid.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="container-ten__more">ПОДРОБНЕЕ</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTAINER-TEN -->
+
+      <section class="container-sixteen">
+        <div class="container-sixteen__form">
+          <h2 class="container-sixteen__header-form">ОСТАВЛИСЬ ВОПРОСЫ ?</h2>
+          <p class="container-sixteen__subheader-form">
+            Звоните или заказывайте обратный звонок
+          </p>
+          <input type="text" placeholder="Имя" />
+          <input type="tel" placeholder="Телефон" />
+          <button>Заказать звонок</button>
+        </div>
+        <div class="container-sixteen__contacts">
+          <h2 class="container-sixteen__header">СВЯЗАТЬСЯ С НАМИ</h2>
+          <div class="container-sixteen__advantages">
+            <div class="container-sixteen__advantage">
+              <img
+                src="./img/svg/cont13-ico1.svg"
+                alt="ico"
+                class="container-sixteen__icon"
+              />
+              <div class="container-sixteen__info">
+                <h4 class="container-sixteen__advantage_header">
+                  Отдел продаж
+                </h4>
+                <p class="container-sixteen__text">+7 (495) 126 26 26</p>
+              </div>
+            </div>
+            <div class="container-sixteen__advantage">
+              <img
+                src="./img/svg/cont13-ico1.svg"
+                alt="ico"
+                class="container-sixteen__icon"
+              />
+              <div class="container-sixteen__info">
+                <h4 class="container-sixteen__advantage_header">
+                  Постпродажный отдел
+                </h4>
+                <p class="container-sixteen__text">+7 (495) 134 11 507</p>
+              </div>
+            </div>
+            <div class="container-sixteen__advantage">
+              <img
+                src="./img/svg/cot16-ico2.svg"
+                alt="ico"
+                class="container-sixteen__icon"
+              />
+              <div class="container-sixteen__info">
+                <h4 class="container-sixteen__advantage_header">
+                  Офис продаж жк амурская
+                </h4>
+                <p class="container-sixteen__text">
+                  Москва ул. Амурская, вл. 3
+                </p>
+              </div>
+            </div>
+            <div class="container-sixteen__advantage">
+              <img
+                src="./img/svg/cont16-ico3.svg"
+                alt="ico"
+                class="container-sixteen__icon"
+              />
+              <div class="container-sixteen__info">
+                <h4 class="container-sixteen__advantage_header">
+                  Режим работы
+                </h4>
+                <p class="container-sixteen__text">Ежедневно 09:00-21:00</p>
+              </div>
+            </div>
+            <div class="container-sixteen__advantage">
+              <img
+                src="./img/svg/cont16-ico4.svg"
+                alt="ico"
+                class="container-sixteen__icon"
+              />
+              <div class="container-sixteen__info">
+                <h4 class="container-sixteen__advantage_header">
+                  Почта для связи
+                </h4>
+                <p class="container-sixteen__text">info@levelgroup.ru</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTAINER-SIXTEEEN -->
+
+      <section class="container-seventeen center">
+        <h2 class="container-seventeen__header">
+          КОММЕРЧЕСКИЕ ПОМЕЩЕНИЯ LEVEL АМУРСКАЯ
+        </h2>
+        <div class="container-seventeen__content">
+          <img src="./img/png/cont17-img1.png" alt="girl" />
+          <div class="list">
+            <ul>
+              <li>Пешеходный трафик 15 тыс. жителей</li>
+              <li>Широкий выбор метражей помещений</li>
+              <li>Витринное остекление более 3-х м в высоту</li>
+              <li>Высокие потолки до 6,55м</li>
+              <li>Возможность размещения вывески</li>
+              <li>Свободная планировка, возможность зонирования</li>
+            </ul>
+            <button class="container-seventeen__button">
+              СМОТРЕТЬ ПЛАНИРОВКИ
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTAINER-SEVENTEEN -->
+
+      <section class="container-eighteen">
+        <div class="map" id="YMapsID" style="width: 100%; height: 750px"></div>
         <div class="info">
           <h2>ЖДЕМ ВАС ПО АДРЕСУ</h2>
           <ul>
-            <li class="text li-one" >Черкизовская</li>
+            <li class="text li-one">Черкизовская</li>
             <li class="text li-two">Локомотив</li>
             <li class="text">Москва, ул. Амурская, вл.3</li>
             <li class="text text-two">Ежедневно с 9:00-21:00</li>
-            <li class="text"><a href="https://yandex.by/maps/213/moscow/?ll=37.629091%2C55.731932&origin=jsapi&utm_medium=mapframe&utm_source=maps&z=16.52" target="_blank">Смотреть схему проезда</a></li>
+            <li class="text">
+              <a
+                href="https://yandex.by/maps/213/moscow/?ll=37.629091%2C55.731932&origin=jsapi&utm_medium=mapframe&utm_source=maps&z=16.52"
+                target="_blank"
+                >Смотреть схему проезда</a
+              >
+            </li>
           </ul>
         </div>
-    </section>
+      </section>
 
-    <!-- CONTAINER-EIGHTEEEN -->
+      <!-- CONTAINER-EIGHTEEEN -->
 
-    <footer>
-      <div class="center">
-      <div class="block">
-        <img src="./img/svg/cont19-logo.svg" alt="logo">
-      </div>
-      <div class="block">
-        <ul>
-          <li><a href="#main" class="first-child">ГЛАВНАЯ</a></li>
-          <li><a href="#plan">ПЛАНИРОВКИ</a></li>
-          <li><a href="#interiers">ИНТЕРЬЕРЫ</a></li>
-          <li><a href="#time">СРОК СТРОИТЕЛЬСТВА</a></li>
-          <li><a href="#howBuy">КАК КУПИТЬ</a></li>
-        </ul>
-      </div>
-      <div class="block">
-        <a href="#ways">СПОСОБЫ<br>ПОКУПКИ</a>
-      </div>
-      <div class="block">
-        <div class="contact">
-          <span></span>
-          <div class="text">
-            <h6>Контакты</h6>
-            <p>+ 7 495 116 92 24</p>
+      <footer>
+        <div class="center">
+          <div class="block">
+            <img src="./img/svg/cont19-logo.svg" alt="logo" />
+          </div>
+          <div class="block">
+            <ul>
+              <li><a href="#main" class="first-child">ГЛАВНАЯ</a></li>
+              <li><a href="#plan">ПЛАНИРОВКИ</a></li>
+              <li><a href="#interiers">ИНТЕРЬЕРЫ</a></li>
+              <li><a href="#time">СРОК СТРОИТЕЛЬСТВА</a></li>
+              <li><a href="#howBuy">КАК КУПИТЬ</a></li>
+            </ul>
+          </div>
+          <div class="block">
+            <a href="#ways">СПОСОБЫ<br />ПОКУПКИ</a>
+          </div>
+          <div class="block">
+            <div class="contact">
+              <span></span>
+              <div class="text">
+                <h6>Контакты</h6>
+                <p>+ 7 495 116 92 24</p>
+              </div>
+            </div>
+
+            <div class="contact">
+              <img src="./img/svg/foot-pin.svg" alt="pin" />
+              <div class="text">
+                <h6>Офис продаж ЖК Амурская</h6>
+                <p>Москва ул.Амурская,вл.3</p>
+              </div>
+            </div>
+            <div class="contact">
+              <img src="./img/svg/foot-clock.svg" alt="clock" />
+              <div class="text">
+                <h6>Режим работы</h6>
+                <p>Ежедневно</p>
+              </div>
+            </div>
+            <div class="contact">
+              <img src="./img/svg/foot-email.svg" alt="mail" />
+              <p>info@levelgroup.ru</p>
+            </div>
+            <button>ЗАКАЗАТЬ ЗВОНОК</button>
           </div>
         </div>
-        
-        <div class="contact">
-          <img src="./img/svg/foot-pin.svg" alt="pin">
-          <div class="text">
-            <h6>Офис продаж ЖК Амурская</h6>
-            <p>Москва ул.Амурская,вл.3</p>
-          </div>
+        <div class="subfooter" id="back-top">
+          <a href="#main"><img src="./img/svg/foot-arrow.svg" alt="up" /></a>
         </div>
-        <div class="contact">
-          <img src="./img/svg/foot-clock.svg" alt="clock">
-          <div class="text">
-            <h6>Режим работы</h6>
-            <p>Ежедневно</p>
-          </div>
-        </div>
-        <div class="contact">
-          <img src="./img/svg/foot-email.svg" alt="mail">
-          <p>info@levelgroup.ru</p>
-        </div>
-        <button>ЗАКАЗАТЬ ЗВОНОК</button>
-      </div>
-      </div>
-      <div class="subfooter" id="back-top">
-        <a href="#main"><img src="./img/svg/foot-arrow.svg" alt="up"></a>
-      </div>
-    
-    </footer>
-  </div>
-  
-  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-  <script src="./js/owl.carousel.min.js"></script>
-  <script src="./js/script.js"></script>
-  <script src="./js/ymap.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
+      </footer>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/ymap.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
